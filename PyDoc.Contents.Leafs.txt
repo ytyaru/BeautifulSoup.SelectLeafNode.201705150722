@@ -1,0 +1,2938 @@
+概要 – リリースハイライト
+PEP 498: フォーマット済み文字列リテラル
+PEP 526: 変数アノテーションのシンタックス
+PEP 515: 数値リテラル内のアンダースコア
+PEP 525: 非同期ジェネレータ
+PEP 530: 非同期内包表記
+PEP 487: Simpler customization of class creation
+PEP 487: 記述子プロトコルの改善
+PEP 519: ファイルシステムパスプロトコルの追加
+PEP 495: 地域時間の曖昧さ回避
+PEP 529: Windows ファイルシステムのエンコーディングを UTF-8 に変更
+PEP 528: Windows コンソールのエンコーディングを UTF-8 に変更
+PEP 520: クラス属性の定義の順番を保持
+PEP 468: キーワード引数の順番の保持
+新たなdict実装
+PEP 523: CPython にフレーム評価 API を追加
+PYTHONMALLOC 環境変数
+DTrace and SystemTap probing support
+その他の言語変更
+secrets
+array
+ast
+asyncio
+binascii
+cmath
+collections
+concurrent.futures
+contextlib
+datetime
+decimal
+distutils
+email
+エンコーディング
+enum
+faulthandler
+fileinput
+hashlib
+http.client
+idlelib と IDLE
+importlib
+inspect
+json
+logging
+math
+multiprocessing
+os
+pathlib
+pdb
+pickle
+pickletools
+pydoc
+random
+re
+readline
+rlcompleter
+shlex
+site
+sqlite3
+socket
+socketserver
+ssl
+statistics
+struct
+subprocess
+sys
+telnetlib
+time
+timeit
+tkinter
+traceback
+tracemalloc
+typing
+unicodedata
+unittest.mock
+urllib.request
+urllib.robotparser
+venv
+warnings
+winreg
+winsound
+xmlrpc.client
+zipfile
+zlib
+最適化
+ビルドならびに C API の変更
+その他の改善
+新たなキーワード
+非推奨の Python 挙動
+asynchat
+asyncore
+dbm
+distutils
+grp
+importlib
+os
+re
+ssl
+tkinter
+venv
+C API の非推奨の関数ならびに型
+非推奨のビルドオプション
+API と機能の削除
+‘python’ コマンドの挙動の変更
+Python API の変更
+C API の変更
+CPython バイトコードの変更
+概要 – リリースハイライト
+PEP 492 - コルーチン、 async と await 構文
+PEP 465 - 行列の乗算専用の中置演算子
+PEP 448 - 追加可能なアンパッキングへの一般化
+PEP 461 - bytes および bytearray のパーセント書式化サポート
+PEP 484 - 型ヒント
+PEP 471 - os.scandir() 関数 – より良く、速いディレクトリイテレータ
+PEP 475: EINTR で失敗したシステムコールの再試行
+PEP 479: ジェネレータ内の StopIteration の処理の変更
+PEP 485: 近似的に等しいことを調べる関数
+PEP 486: Python ランチャーが仮想環境を認識する
+PEP 488: PYO ファイルの廃止
+PEP 489: 拡張モジュールの多段階初期化
+その他の言語変更
+typing
+zipapp
+argparse
+asyncio
+bz2
+cgi
+cmath
+コード
+collections
+collections.abc
+compileall
+concurrent.futures
+configparser
+contextlib
+csv
+curses
+dbm
+difflib
+distutils
+doctest
+email
+enum
+faulthandler
+functools
+glob
+gzip
+heapq
+http
+http.client
+idlelib と IDLE
+imaplib
+imghdr
+importlib
+inspect
+io
+ipaddress
+json
+linecache
+locale
+logging
+lzma
+math
+multiprocessing
+operator
+os
+pathlib
+pickle
+poplib
+re
+readline
+selectors
+shutil
+signal
+smtpd
+smtplib
+sndhdr
+socket
+メモリ BIO サポート
+Application-Layer Protocol Negotiation Support
+その他の変更
+sqlite3
+subprocess
+sys
+sysconfig
+tarfile
+threading
+time
+timeit
+tkinter
+traceback
+types
+unicodedata
+unittest
+unittest.mock
+urllib
+wsgiref
+xmlrpc
+xml.sax
+zipfile
+その他のモジュールレベルの変更
+最適化
+ビルドならびに C API の変更
+新たなキーワード
+非推奨の Python の挙動
+サポートされないオペレーティングシステム
+非推奨の Python モジュール、関数、メソッド
+API と機能の削除
+Python の挙動の変更
+Python API の変更
+C API の変更
+概要 – リリースハイライト
+デフォルトでの pip のブートストラッピング
+ドキュメントの変更
+PEP 446: 新規作成されたファイル記述子は継承不可
+Codec 処理の改良
+PEP 451: インポートシステムのための ModuleSpec 型
+その他の言語変更
+asyncio
+ensurepip
+enum
+pathlib
+selectors
+statistics
+tracemalloc
+abc
+aifc
+argparse
+audioop
+base64
+collections
+colorsys
+contextlib
+dbm
+dis
+doctest
+email
+filecmp
+functools
+gc
+glob
+hashlib
+hmac
+html
+http
+idlelib と IDLE
+importlib
+inspect
+ipaddress
+logging
+marshal
+mmap
+multiprocessing
+operator
+os
+pdb
+pickle
+plistlib
+poplib
+pprint
+pty
+pydoc
+re
+resource
+select
+shelve
+shutil
+smtpd
+smtplib
+socket
+sqlite3
+ssl
+stat
+struct
+subprocess
+sunau
+sys
+tarfile
+textwrap
+threading
+traceback
+types
+urllib
+unittest
+venv
+wave
+weakref
+xml.etree
+zipfile
+PEP 445: CPython のメモリアロケータのカスタマイズ
+PEP 442: オブジェクトの安全なファイナライゼーション
+PEP 456: 安全で取り換え可能なハッシュアルゴリズム
+PEP 436: Argument Clinic
+その他のビルド並びに C API の変更
+その他の改善
+大幅な最適化
+Python API の非推奨項目
+非推奨の機能
+サポートされなくなったオペレーティングシステム
+API と機能の削除
+コードの整理
+‘python’ コマンドの挙動の変更
+Python API の変更
+C API の変更
+PEP 476: stdlib http クライアントが証明書の検証を行うのをデフォルトで有効化
+概要 – リリースハイライト
+PEP 405: 仮想環境
+PEP 420: 暗黙的な名前空間パッケージ
+フィーチャー
+API の変更
+機能性
+性能およびリソース使用量
+PEP 397: Windows の Python ランチャ
+PEP 3151: OS および IO 例外階層の手直し
+PEP 380: サブジェネレータへの委譲構文
+PEP 409: 例外コンテクストの抑制
+PEP 414: 明示的なユニコードリテラル
+PEP 3155: クラスと関数の正規名
+PEP 412: キー共有辞書
+PEP 362: 関数シグニチャオブジェクト
+SimpleNamespace
+新たな API
+目に見える変化
+その他の言語変更
+細粒度のインポートロック
+組み込みの関数と型
+faulthandler
+ipaddress
+lzma
+abc
+array
+base64
+binascii
+bz2
+codecs
+collections
+contextlib
+crypt
+curses
+datetime
+フィーチャー
+API の変更
+ポリシーフレームワーク
+新規ヘッダ API を伴った暫定ポリシー
+その他のAPIの変更
+ftplib
+functools
+gc
+hmac
+http
+html
+imaplib
+inspect
+io
+itertools
+logging
+math
+mmap
+multiprocessing
+nntplib
+os
+pdb
+pickle
+pydoc
+re
+sched
+select
+shlex
+shutil
+signal
+smtpd
+smtplib
+socket
+socketserver
+sqlite3
+ssl
+stat
+struct
+subprocess
+sys
+tarfile
+tempfile
+textwrap
+threading
+time
+types
+unittest
+urllib
+webbrowser
+xml.etree.ElementTree
+zlib
+最適化
+ビルドならびに C API の変更
+サポートされないオペレーティングシステム
+非推奨の Python モジュール、関数、メソッド
+C API の非推奨の関数ならびに型
+非推奨の機能
+Python コードの移植
+C コードの移植
+C 拡張のビルド
+コマンドラインスイッチの変更
+PEP 384: 安定 ABI の定義
+PEP 389: argparse コマンドライン解析モジュール
+PEP 391:  logging の辞書ベースの設定
+PEP 3148:concurrent.futuresモジュール
+PEP 3147:  PYC リポジトリーディレクトリ
+PEP 3149: ABI バージョンでタグ付けされた .so ファイル
+PEP 3333: Python Web Server Gateway Interface v1.0.1
+その他の言語変更
+email
+elementtree
+functools
+itertools
+collections
+threading
+datetime と time
+math
+abc
+io
+reprlib
+logging
+csv
+contextlib
+decimal と fractions
+ftp
+popen
+select
+gzip と zipfile
+tarfile
+hashlib
+ast
+os
+shutil
+sqlite3
+html
+socket
+ssl
+nntp
+certificates
+imaplib
+http.client
+unittest
+random
+poplib
+asyncore
+tempfile
+inspect
+pydoc
+dis
+dbm
+ctypes
+site
+sysconfig
+pdb
+configparser
+urllib.parse
+mailbox
+turtledemo
+マルチスレッディング
+最適化
+Unicode 文字列型
+Codecs
+ドキュメント
+IDLE
+コードリポジトリ
+ビルドならびに C API の変更
+Python 3.2 への移植
+PEP 372: 順序付き辞書
+PEP 378: 1000区切りのための書式指定子
+その他の言語変更
+新たなモジュール、改良されたモジュール、非推奨のモジュール
+最適化
+IDLE
+ビルドならびに C API の変更
+Python 3.1 への移植
+print関数
+リストからビューおよびイテレータへ
+順序比較
+整数
+Unicode 対 8 ビット、ではなく、テキスト対データに
+新たな構文
+変更された構文
+削除された操作
+Python 2.6 で既にあった変更
+ライブラリの変更
+PEP 3101: 文字列整形の新たなアプローチ
+例外に関する変更
+演算子と特殊メソッド
+組み込み
+ビルドならびに C API の変更
+性能
+Python 3.0 への移植
+Python 2.x の今後
+Deprecation Warnings の扱いの変更
+Python 3.1 の機能
+PEP 372: collections に順序付き辞書を追加
+PEP 378: 1000区切りのための書式指定子
+PEP 389: コマンドライン解析のための argparse モジュール
+PEP 391: logging の辞書ベースの設定
+PEP 3106: 辞書 View
+PEP 3137: memoryview オブジェクト
+インタプリタの変更
+最適化
+新しいモジュール: importlib
+新しいモジュール: sysconfig
+ttk: Tk のテーマ付きウィジェット
+更新されたモジュール: unittest
+更新されたモジュール: ElementTree 1.3
+カプセル
+ポート特有の変更: Windows
+ポート特有の変更: Mac OS X
+ポート特有の変更: FreeBSD
+その他の変更と修正
+Python 2.7 への移植
+PEP 434: IDLE 拡張についての全てのブランチにおける例外的な扱い
+PEP 466: Python 2.7 のためのネットワークセキュリティ拡張
+謝辞
+Python 3.0
+新しい課題トラッカー: Roundup
+新しいドキュメンテーションフォーマット: Sphinx を使っての reStructuredText
+コンテキストマネージャを書く
+contextlib モジュール
+PEP 366: メインモジュールからの明示的相対インポート
+PEP 370: ユーザごとのsite-packagesディレクトリ
+PEP 371:multiprocessingパッケージ
+PEP 3101: 進化版文字列フォーマッティング
+PEP 3105:printを関数にする
+PEP 3110: 例外処理の変更
+PEP 3112: バイトリテラル
+PEP 3116: 新しい I/O ライブラリ
+PEP 3118: 改訂版バッファプロトコル
+PEP 3119: 抽象基底クラス
+PEP 3127: 整数リテラルのサポートと文法
+PEP 3129: クラスデコレータ
+fractionsモジュール
+最適化
+インタプリタの変更
+astモジュール
+future_builtinsモジュール
+jsonモジュール: JavaScript オブジェクト記法
+plistlibモジュール: プロパティリストパーサ
+ctypes の強化
+SSL サポートの改善
+非推奨と削除
+ポート特有の変更: Windows
+ポート特有の変更: Mac OS X
+ポート特有の変更: IRIX
+Python 2.6 への移植
+謝辞
+PEP 308: 条件式 (Conditional Expressions)
+PEP 309: 関数の部分適用
+PEP 314: Metadata for Python Software Packages v1.1
+PEP 328: 絶対インポート、相対インポート
+PEP 338 - モジュールをスクリプトとして実行する
+PEP 341: try/except/finally の一体化
+PEP 342: ジェネレータの新機能
+コンテキストマネージャを書く
+contextlib モジュール
+PEP 352: 例外の新スタイルクラス化
+PEP 353: 添え字型に ssize_t を使う
+PEP 357: ‘__index__’ メソッド
+対話的なインタプリタの変更
+最適化
+ctypes パッケージ
+ElementTree パッケージ
+hashlib パッケージ
+sqlite3 パッケージ
+wsgiref パッケージ
+ポート特有の変更
+Python 2.5 への移植
+謝辞
+PEP 218: ビルトインの集合オブジェクト
+PEP 237: 長整数と整数を一体化していく
+PEP 289: ジェネレータ式
+PEP 292: より単純な文字列置換 (string substitution)
+PEP 318: 関数とメソッドのためのデコレータ
+PEP 322: 逆順のイテレーション
+PEP 324: 新しい subprocess モジュール
+なぜ Decimal が必要なのか?
+Decimal型
+Context型
+PEP 328: マルチラインインポート
+PEP 331: Locale に依存しない Float/String 変換
+最適化
+cookielib
+doctest
+ポート特有の変更
+Python 2.4 への移植
+謝辞
+PEP 218: 標準の集合データ型
+PEP 255: 単純なジェネレータ
+PEP 263: ソースコードのエンコーディング
+PEP 273: Zip アーカイブからモジュールをインポートする
+PEP 277: Windows NT での Unicode ファイル名サポート
+PEP 278: Universal Newline サポート
+PEP 279: enumerate()
+PEP 282: ロギングパッケージ
+PEP 285: Boolean 型
+PEP 293: コーデックエラーを処理するコールバック
+PEP 301: パッケージインデクスと、 Distutils のためのメタデータ
+PEP 302: 新たなインポートフック
+PEP 305: カンマ区切り形式ファイル
+PEP 307: Pickle の機能拡張
+拡張スライス
+文字列に関する変更
+最適化
+日付時刻型
+optparse モジュール
+Pymalloc: 特殊化されたオブジェクトアロケータ
+ポート特有の変更
+その他の変更と修正
+Python 2.3 への移植
+謝辞
+はじめに
+旧と新クラス
+デスクリプタ
+多重継承: ダイヤモンドルール
+属性アクセス
+関連リンク
+PEP 234: イテレータ
+PEP 255: 単純なジェネレータ
+PEP 237: 長整数と整数を一体化していく
+PEP 238: 除算演算子を変更していく
+Unicode の変更
+PEP 227: 入れ子状のスコープ
+新しいモジュールと改良されたモジュール
+インタプリタの変更と修正
+その他の変更と修正
+謝辞
+はじめに
+PEP 227: 入れ子状のスコープ
+PEP 236: __future__ 指示文
+PEP 207: 拡張比較
+PEP 230: 警告フレームワーク
+PEP 229: 新しいビルドシステム
+PEP 205: 弱参照
+PEP 232: 関数の属性
+PEP 235: 大文字小文字を区別しないプラットフォームでのモジュールの読み込み
+PEP 217: 対話モード用 Display Hook
+PEP 208: 新しい型強制モデル
+PEP 241: Pythonソフトウェアパッケージのためのメタデータ
+新しいモジュールと改良されたモジュール
+その他の変更と修正
+謝辞
+はじめに
+Python 1.6 はいかがっすか?
+新しい開発プロセス
+Unicode 文字列型
+リストの内包表記
+累算代入 (Augmented Assignment)
+文字列メソッド
+循環参照のガベージコレクション
+言語のマイナー変更
+ビルトイン関数の変更
+Python 2.0 への移植
+拡張と埋め込みについての変更
+Distutils: モジュールの簡単インストール
+SAX2 サポート
+DOM サポート
+PyXML との関係
+更新されたモジュール
+新しいモジュール
+IDLE の改善
+削除されたモジュール、非推奨となったモジュール
+謝辞
+Core and Builtins
+ライブラリ
+ビルド
+ドキュメント
+Core and Builtins
+ビルド
+Core and Builtins
+拡張モジュール
+ライブラリ
+Windows
+C API
+ドキュメント
+テスト
+ビルド
+Python 3.6.0
+Core and Builtins
+Tools/Demos
+Windows
+ビルド
+Core and Builtins
+ライブラリ
+C API
+ドキュメント
+Tools/Demos
+Core and Builtins
+ライブラリ
+ドキュメント
+テスト
+ビルド
+Core and Builtins
+ライブラリ
+Windows
+ビルド
+テスト
+Core and Builtins
+ライブラリ
+Windows
+C API
+ビルド
+テスト
+Core and Builtins
+ライブラリ
+IDLE
+C API
+テスト
+ビルド
+Tools/Demos
+Windows
+Core and Builtins
+ライブラリ
+IDLE
+テスト
+Windows
+ビルド
+Core and Builtins
+ライブラリ
+IDLE
+C API
+ビルド
+Tools/Demos
+ドキュメント
+テスト
+Core and Builtins
+ライブラリ
+IDLE
+ドキュメント
+テスト
+Windows
+ビルド
+Misc
+C API
+Tools/Demos
+Core and Builtins
+ライブラリ
+IDLE
+ドキュメント
+テスト
+ビルド
+Windows
+Tools/Demos
+C API
+Python 3.5.3
+Core and Builtins
+ライブラリ
+IDLE
+C API
+ドキュメント
+テスト
+Tools/Demos
+Windows
+ビルド
+Core and Builtins
+テスト
+IDLE
+Core and Builtins
+ライブラリ
+IDLE
+ドキュメント
+テスト
+ビルド
+Windows
+Tools/Demos
+Misc
+Core and Builtins
+Windows
+Core and Builtins
+ライブラリ
+IDLE
+ドキュメント
+テスト
+ビルド
+Windows
+Tools/Demos
+ビルド
+ライブラリ
+ビルド
+Core and Builtins
+ライブラリ
+Core and Builtins
+ライブラリ
+Core and Builtins
+ライブラリ
+IDLE
+ドキュメント
+テスト
+Core and Builtins
+ライブラリ
+ビルド
+Core and Builtins
+ライブラリ
+テスト
+ドキュメント
+ビルド
+Core and Builtins
+ライブラリ
+Core and Builtins
+ライブラリ
+IDLE
+テスト
+ドキュメント
+Tools/Demos
+Core and Builtins
+ライブラリ
+ビルド
+テスト
+Tools/Demos
+C API
+Core and Builtins
+ライブラリ
+ビルド
+テスト
+Tools/Demos
+Core and Builtins
+ライブラリ
+ビルド
+C API
+Windows
+Core and Builtins
+ライブラリ
+IDLE
+ビルド
+C API
+ドキュメント
+テスト
+Tools/Demos
+Windows
+1. やる気を高めよう
+2.1.1. 引数の受け渡し
+2.1.2. 対話モード
+2.2.1. ソースコードの文字コード
+3.1.1. 数
+3.1.2. 文字列型 (string)
+3.1.3. リスト型 (list)
+3.2. プログラミングへの第一歩
+4.1.if文
+4.2.for文
+4.3.range()関数
+4.4.break文とcontinue文とループのelse節
+4.5.pass文
+4.6. 関数を定義する
+4.7.1. デフォルトの引数値
+4.7.2. キーワード引数
+4.7.3. 任意引数リスト
+4.7.4. 引数リストのアンパック
+4.7.5. ラムダ式
+4.7.6. ドキュメンテーション文字列
+4.7.7. 関数のアノテーション
+4.8. 間奏曲: コーディングスタイル
+5.1.1. リストをスタックとして使う
+5.1.2. リストをキューとして使う
+5.1.3. リストの内包表記
+5.1.4. ネストしたリストの内包表記
+5.2.del文
+5.3. タプルとシーケンス
+5.4. 集合型
+5.5. 辞書型 (dictionary)
+5.6. ループのテクニック
+5.7. 条件についてもう少し
+5.8. シーケンスとその他の型の比較
+6.1.1. モジュールをスクリプトとして実行する
+6.1.2. モジュール検索パス
+6.1.3. “コンパイル” された Python ファイル
+6.2. 標準モジュール
+6.3.dir()関数
+6.4.1. パッケージから * を import する
+6.4.2. パッケージ内参照
+6.4.3. 複数ディレクトリ中のパッケージ
+7.1.1. 古い文字列書式設定方法
+7.2.1. ファイルオブジェクトのメソッド
+7.2.2.jsonによる構造化されたデータの保存
+8.1. 構文エラー
+8.2. 例外
+8.3. 例外を処理する
+8.4. 例外を送出する
+8.5. ユーザー定義例外
+8.6. クリーンアップ動作を定義する
+8.7. 定義済みクリーンアップ処理
+9.1. 名前とオブジェクトについて
+9.2.1. スコープと名前空間の例
+9.3.1. クラス定義の構文
+9.3.2. クラスオブジェクト
+9.3.3. インスタンスオブジェクト
+9.3.4. メソッドオブジェクト
+9.3.5. クラスとインスタンス変数
+9.4. いろいろな注意点
+9.5.1. 多重継承
+9.6. プライベート変数
+9.7. 残りのはしばし
+9.8. イテレータ (iterator)
+9.9. ジェネレータ (generator)
+9.10. ジェネレータ式
+10.1. OSへのインタフェース
+10.2. ファイルのワイルドカード表記
+10.3. コマンドライン引数
+10.4. エラー出力のリダイレクトとプログラムの終了
+10.5. 文字列のパターンマッチング
+10.6. 数学
+10.7. インターネットへのアクセス
+10.8. 日付と時刻
+10.9. データ圧縮
+10.10. パフォーマンスの計測
+10.11. 品質管理
+10.12. バッテリー同梱
+11.1. 出力のフォーマット
+11.2. 文字列テンプレート
+11.3. バイナリデータレコードの操作
+11.4. マルチスレッディング
+11.5. ログ記録
+11.6. 弱参照
+11.7. リスト操作のためのツール
+11.8. 10 進浮動小数演算
+12.1. はじめに
+12.2. 仮想環境の作成
+12.3. pip を使ったパッケージ管理
+13. さあ何を？
+14.1. タブ補完と履歴編集
+14.2. 対話的インタープリタの代替
+15.1. 表現エラー
+16.1.1. エラー処理
+16.1.2. 実行可能な Python スクリプト
+16.1.3. 対話モード用の起動時実行ファイル
+16.1.4. カスタマイズ用モジュール
+1.1.1. インターフェイスオプション
+1.1.2. 一般オプション
+1.1.3. その他のオプション
+1.1.4. 使うべきでないオプション
+1.2.1. デバッグモード変数
+2.1.1. Linux
+2.1.2. FreeBSD と OpenBSD
+2.1.3. OpenSolaris
+2.2. Python のビルド
+2.3. Python に関係するパスとファイル
+2.4. その他
+2.5. エディタと IDE
+3.1.1. サポートされているバージョン
+3.1.2. インストール手順
+3.1.3. Removing the MAX_PATH Limitation
+3.1.4. インストーラの GUI なしでインストールする
+3.1.5. ダウンロード不要なインストール
+3.1.6. インストール後の変更
+3.1.7. ほかのプラットフォーム
+3.2. 別のバンドル
+3.3.1. 補足: 環境変数の設定
+3.3.2. Python 実行ファイルを見つける
+3.4.1.1. コマンドラインから起動する
+3.4.1.2. 仮想環境 (Virtual environments)
+3.4.1.3. スクリプトから起動する
+3.4.1.4. ファイルの関連付けから起動する
+3.4.2. シェバン (shebang) 行
+3.4.3. シェバン行の引数
+3.4.4.1. INI ファイルによるカスタマイズ
+3.4.4.2. デフォルトのPythonバージョンのカスタマイズ
+3.4.5. 診断
+3.5. モジュールの検索
+3.6.1. PyWin32
+3.6.2. cx_Freeze
+3.6.3. WConio
+3.7. Windows 上で Python をコンパイルする
+3.8.1. Python アプリケーション
+3.8.2. Python の埋め込み
+3.9. その他のリソース
+4.1.1. Python スクリプトの実行方法
+4.1.2. GUI でスクリプトを実行
+4.1.3. Configuration
+4.2. IDE
+4.3. 追加の Python パッケージのインストール
+4.4. Mac での GUI プログラミング
+4.5. Mac 上の Python アプリケーションの配布
+4.6. 他のリソース
+1.1. 別のPythonの実装
+1.2. 本マニュアルにおける表記法
+2.1.1. 論理行 (logical line)
+2.1.2. 物理行 (physical line)
+2.1.3. コメント (Comments)
+2.1.4. エンコード宣言 (encoding declaration)
+2.1.5. 明示的な行継続
+2.1.6. 非明示的な行継続
+2.1.7. 空行
+2.1.8. インデント
+2.1.9. トークン間の空白
+2.2. その他のトークン
+2.3.1. キーワード (keyword)
+2.3.2. 予約済みの識別子種 (reserved classes of identifiers)
+2.4.1. 文字列およびバイト列リテラル
+2.4.2. 文字列リテラルの結合 (concatenation)
+2.4.3. フォーマット済み文字列リテラル
+2.4.4. 数値リテラル
+2.4.5. 整数リテラル
+2.4.6. 浮動小数点数リテラル
+2.4.7. 虚数 (imaginary) リテラル
+2.5. 演算子
+2.6. デリミタ (delimiter)
+3.1. オブジェクト、値、および型
+3.2. 標準型の階層
+3.3.1. 基本的なカスタマイズ
+3.3.2.1. デスクリプタ (descriptor) の実装
+3.3.2.2. デスクリプタの呼び出し
+3.3.2.3.1.__slots__を利用する際の注意
+3.3.3.1. Metaclasses
+3.3.3.2. 適切なメタクラスの決定
+3.3.3.3. クラスの名前空間の準備
+3.3.3.4. クラス本体の実行
+3.3.3.5. クラスオブジェクトの作成
+3.3.3.6. メタクラスの例
+3.3.4. インスタンスのカスタマイズとサブクラスチェック
+3.3.5. 呼び出し可能オブジェクトをエミュレートする
+3.3.6. コンテナをエミュレートする
+3.3.7. 数値型をエミュレーションする
+3.3.8. with文とコンテキストマネージャ
+3.3.9. 特殊メソッド検索
+3.4.1. 待機可能オブジェクト (Awaitable Object)
+3.4.2. コルーチンオブジェクト
+3.4.3. 非同期イテレータ (Asynchronous Iterator)
+3.4.4. 非同期コンテクストマネージャ (Asynchronous Context Manager)
+4.1. プログラムの構造
+4.2.1. 名前の束縛
+4.2.2. 名前解決
+4.2.3. 組み込みと制限付きの実行
+4.2.4. 動的な機能とのやりとり
+4.3. 例外
+5.1.importlib
+5.2.1. 通常のパッケージ
+5.2.2. 名前空間パッケージ
+5.3.1. モジュールキャッシュ
+5.3.2. ファインダーとローダー
+5.3.3. インポートフック
+5.3.4. メタパス
+5.4.1. ローダー
+5.4.2. サブモジュール
+5.4.3. モジュール仕様
+5.4.4. インポート関連のモジュール属性
+5.4.5. module.__path__
+5.4.6. モジュールの repr
+5.5.1. パスエントリ・ファインダー
+5.5.2. パスエントリ・ファインダー・プロトコル
+5.6. 標準のインポートシステムを置き換える
+5.7.1. __main__.__spec__
+5.8. 取り掛かり中の問題
+5.9. 参考資料
+6.1. 算術変換 (arithmetic conversion)
+6.2.1. 識別子 (identifier、または名前 (name))
+6.2.2. リテラル
+6.2.3. 丸括弧形式 (parenthesized form)
+6.2.4. リスト、集合、辞書の表示
+6.2.5. リスト表現
+6.2.6. 集合表現
+6.2.7. 辞書表現
+6.2.8. ジェネレータ式
+6.2.9.1. ジェネレータ-イテレータメソッド
+6.2.9.2. 使用例
+6.2.9.3. Asynchronous generator functions
+6.2.9.4. Asynchronous generator-iterator methods
+6.3.1. 属性参照
+6.3.2. 添字表記 (subscription)
+6.3.3. スライス表記 (slicing)
+6.3.4. 呼び出し (call)
+6.4. Await 式
+6.5. べき乗演算 (power operator)
+6.6. 単項算術演算とビット単位演算 (unary arithmetic and bitwise operation)
+6.7. 二項算術演算 (binary arithmetic operation)
+6.8. シフト演算 (shifting operation)
+6.9. ビット単位演算の二項演算 (binary bitwise operation)
+6.10.1. 値の比較
+6.10.2. 帰属検査演算
+6.10.3. 同一性の比較
+6.11. ブール演算 (boolean operation)
+6.12. 条件式 (Conditional Expressions)
+6.13. ラムダ (lambda)
+6.14. 式のリスト
+6.15. 評価順序
+6.16. 演算子の優先順位
+7.1. 式文 (expression statement)
+7.2.1. 累算代入文 (augmented assignment statement)
+7.2.2. アノテート付き代入文 (annotated assignment statements)
+7.3.assert文
+7.4.pass文
+7.5.del文
+7.6.return文
+7.7.yield文
+7.8.raise文
+7.9.break文
+7.10.continue文
+7.11.1. future 文 (future statement)
+7.12.global文
+7.13.nonlocal文
+8.1.if文
+8.2.while文
+8.3.for文
+8.4.try文
+8.5.with文
+8.6. 関数定義
+8.7. クラス定義
+8.8.1. コルーチン関数定義
+8.8.2.asyncfor文
+8.8.3.asyncwith文
+9.1. 完全な Python プログラム
+9.2. ファイル入力
+9.3. 対話的入力
+9.4. 式入力
+10. 完全な文法仕様
+1. はじめに
+2. 組み込み関数
+3.1.siteモジュールで追加される定数
+4.1. 真理値判定
+4.2. ブール演算 —and,or,not
+4.3. 比較
+4.4.1. 整数型におけるビット単位演算
+4.4.2. 整数型における追加のメソッド
+4.4.3. 浮動小数点数に対する追加のメソッド
+4.4.4. 数値型のハッシュ化
+4.5.1. ジェネレータ型
+4.6.1. 共通のシーケンス演算
+4.6.2. イミュータブルなシーケンス型
+4.6.3. ミュータブルなシーケンス型
+4.6.4. リスト型 (list)
+4.6.5. タプル型 (tuple)
+4.6.6. range
+4.7.1. 文字列メソッド
+4.7.2.printf形式の文字列書式化
+4.8.1. bytes
+4.8.2. bytearray オブジェクト
+4.8.3. bytes と bytearray の操作
+4.8.4.printf形式での bytes の書式化
+4.8.5. メモリビュー
+4.9. set（集合）型 —set,frozenset
+4.10.1. 辞書ビューオブジェクト
+4.11. コンテキストマネージャ型
+4.12.1. モジュール (module)
+4.12.2. クラスおよびクラスインスタンス
+4.12.3. 関数
+4.12.4. メソッド
+4.12.5. コードオブジェクト
+4.12.6. 型オブジェクト
+4.12.7. ヌルオブジェクト
+4.12.8. Ellipsis オブジェクト
+4.12.9. NotImplemented オブジェクト
+4.12.10. ブール値
+4.12.11. 内部オブジェクト
+4.13. 特殊属性
+5.1. 基底クラス
+5.2.1. OS 例外
+5.3. 警告
+5.4. 例外のクラス階層
+6.1.1. 文字列定数
+6.1.2. カスタムの文字列書式化
+6.1.3.1. 書式指定ミニ言語仕様
+6.1.3.2. 書式指定例
+6.1.4. テンプレート文字列
+6.1.5. ヘルパー関数
+6.2.1. 正規表現のシンタックス
+6.2.2. モジュールコンテンツ
+6.2.3. 正規表現オブジェクト
+6.2.4. match オブジェクト
+6.2.5.1. ペアの確認
+6.2.5.2. scanf() をシミュレートする
+6.2.5.3. search() vs. match()
+6.2.5.4. 電話帳の作成
+6.2.5.5. テキストの秘匿
+6.2.5.6. 全ての副詞を見つける
+6.2.5.7. 全ての副詞と、その位置を見つける
+6.2.5.8. Raw String記法
+6.2.5.9. トークナイザを書く
+6.3.1. SequenceMatcherオブジェクト
+6.3.2. SequenceMatcher の例
+6.3.3. Differ オブジェクト
+6.3.4. Differ の例
+6.3.5. difflib のコマンドラインインタフェース
+6.4.textwrap— テキストの折り返しと詰め込み
+6.5.unicodedata— Unicode データベース
+6.6.stringprep— インターネットのための文字列調製
+6.7.1. 初期化ファイル
+6.7.2. 行バッファ
+6.7.3. 履歴ファイル
+6.7.4. 履歴リスト
+6.7.5. 開始フック
+6.7.6. 補完
+6.7.7. 使用例
+6.8.1. Completerオブジェクト
+7.1.1. 関数と例外
+7.1.2.1. バイトオーダ、サイズ、アラインメント
+7.1.2.2. 書式指定文字
+7.1.2.3. 使用例
+7.1.3. クラス
+7.2.1.1. エラーハンドラ
+7.2.1.2. ステートレスなエンコードとデコード
+7.2.1.3.1. IncrementalEncoder オブジェクト
+7.2.1.3.2. IncrementalDecoder オブジェクト
+7.2.1.4.1. StreamWriter オブジェクト
+7.2.1.4.2. StreamReader オブジェクト
+7.2.1.4.3. StreamReaderWriter オブジェクト
+7.2.1.4.4. StreamRecoder オブジェクト
+7.2.2. エンコーディングと Unicode
+7.2.3. 標準エンコーディング
+7.2.4.1. テキストエンコーディング
+7.2.4.2. バイナリ変換 (Binary Transforms)
+7.2.4.3. テキスト変換 (Text Transforms)
+7.2.5.encodings.idna— アプリケーションにおける国際化ドメイン名 (IDNA)
+7.2.6.encodings.mbcs— Windows ANSI コードページ
+7.2.7.encodings.utf_8_sig— BOM 印付き UTF-8
+8.1.1. 利用可能なデータ型
+8.1.2.timedeltaオブジェクト
+8.1.3.dateオブジェクト
+8.1.4.datetimeオブジェクト
+8.1.5.timeオブジェクト
+8.1.6.tzinfoオブジェクト
+8.1.7.timezoneオブジェクト
+8.1.8.strftime()とstrptime()の振る舞い
+8.2.calendar— 一般的なカレンダーに関する関数群
+8.3.1.1.ChainMapの例とレシピ
+8.3.2.Counterオブジェクト
+8.3.3.1.dequeのレシピ
+8.3.4.1.defaultdictの使用例
+8.3.5.namedtuple()名前付きフィールドを持つタプルのファクトリ関数
+8.3.6.1.OrderedDictの例とレシピ
+8.3.7.UserDictオブジェクト
+8.3.8.UserListオブジェクト
+8.3.9.UserStringオブジェクト
+8.4.1. コレクション抽象基底クラス
+8.5.1. 基本的な例
+8.5.2. 優先度キュー実装の注釈
+8.5.3. 理論
+8.6.1. ソート済みリストの探索
+8.6.2. その他の使用例
+8.7.array— 効率のよい数値アレイ
+8.8.1. 弱参照オブジェクト
+8.8.2. 使用例
+8.8.3. ファイナライザオブジェクト
+8.8.4. ファイナライザと__del__()メソッドとの比較
+8.9.1. 動的な型生成
+8.9.2. 標準的なインタプリタ型
+8.9.3. 追加のユーティリティクラスと関数
+8.9.4. コルーチンユーティリティ関数
+8.10.copy— 浅いコピーおよび深いコピー操作
+8.11.1. PrettyPrinter オブジェクト
+8.11.2. 使用例
+8.12.1. Reprオブジェクト
+8.12.2. Reprオブジェクトをサブクラス化する
+8.13.1. モジュールコンテンツ
+8.13.2. Enum の作成
+8.13.3. 列挙型メンバーおよびそれらの属性へのプログラム的アクセス
+8.13.4. 列挙型メンバーと値の重複
+8.13.5. 番号付けの値が同一であることの確認
+8.13.6. Using automatic values
+8.13.7. イテレーション
+8.13.8. 比較
+8.13.9. 列挙型で許されるメンバーと属性
+8.13.10. 列挙型のサブクラス化の制限事項
+8.13.11. Pickle 化
+8.13.12. 機能 API
+8.13.13.1. IntEnum
+8.13.13.2. IntFlag
+8.13.13.3. Flag
+8.13.13.4. その他
+8.13.14.1.1. Usingauto
+8.13.14.1.2. Usingobject
+8.13.14.1.3. Using a descriptive string
+8.13.14.1.4. Using a custom__new__()
+8.13.14.2. OrderedEnum
+8.13.14.3. DuplicateFreeEnum
+8.13.14.4. Planet
+8.13.15.1. Enum クラス
+8.13.15.2. Enum メンバー (インスタンス)
+8.13.15.3.1. Supported__dunder__names
+8.13.15.3.2. Supported_sunder_names
+8.13.15.3.3.Enummember type
+8.13.15.3.4. Boolean value ofEnumclasses and members
+8.13.15.3.5.Enumclasses with methods
+8.13.15.3.6. Combining members ofFlag
+9.1.1. 数値塔
+9.1.2.1. さらに数のABCを追加する
+9.1.2.2. 算術演算の実装
+9.2.1. 数論および数表現の関数
+9.2.2. 指数関数と対数関数
+9.2.3. 三角関数
+9.2.4. 角度変換
+9.2.5. 双曲線関数
+9.2.6. 特殊関数
+9.2.7. 定数
+9.3.1. 極座標変換
+9.3.2. 指数関数と対数関数
+9.3.3. 三角関数
+9.3.4. 双曲線関数
+9.3.5. 類別関数
+9.3.6. 定数
+9.4.1. クイックスタートチュートリアル
+9.4.2.1. 論理引数
+9.4.3. Context オブジェクト
+9.4.4. 定数
+9.4.5. 丸めモード
+9.4.6. シグナル
+9.4.7.1. 精度を上げて丸め誤差を抑制する
+9.4.7.2. 特殊値
+9.4.8. スレッドを使った処理
+9.4.9. レシピ
+9.4.10. Decimal FAQ
+9.5.fractions— 有理数
+9.6.1. 保守 (bookkeeping) 関数
+9.6.2. 整数用の関数
+9.6.3. シーケンス用の関数
+9.6.4. 実数分布
+9.6.5. 他の生成器
+9.6.6. 再現性について
+9.6.7. 例とレシピ
+9.7.1. 平均及び中心位置の測度
+9.7.2. 分散の測度
+9.7.3. 関数の詳細
+9.7.4. 例外
+10.1.1. Itertool関数
+10.1.2. Itertools レシピ
+10.2.1.partialオブジェクト
+10.3.1. 演算子から関数への対応表
+10.3.2. インプレース演算子
+11.1.1. 基本的な使い方
+11.1.2.1. 全般的な性質
+11.1.2.2. 演算子
+11.1.2.3. 個別の構成要素へのアクセス
+11.1.2.4. メソッドとプロパティ
+11.1.3.1. メソッド
+11.2.os.path— 共通のパス名操作
+11.3.fileinput— 複数の入力ストリームをまたいだ行の繰り返し処理をサポートする
+11.4.stat—stat()の結果を解釈する
+11.5.1.dircmpクラス
+11.6.1. 使用例
+11.6.2. 非推奨の関数と変数
+11.7.glob— Unix 形式のパス名のパターン展開
+11.8.fnmatch— Unix ファイル名のパターンマッチ
+11.9.linecache— テキストラインにランダムアクセスする
+11.10.1.1. copytree の例
+11.10.1.2. rmtree の例
+11.10.2.1. アーカイブ化の例
+11.10.3. 出力ターミナルのサイズの取得
+11.11.macpath— Mac OS 9 のパス操作関数
+12.1.1.1.marshalとの比較
+12.1.1.2.jsonとの比較
+12.1.2. データストリームの形式
+12.1.3. モジュールインタフェース
+12.1.4. pickle 化、非 pickle 化できるもの
+12.1.5.1. 外部オブジェクトの永続化
+12.1.5.2. ディスパッチテーブル
+12.1.5.3. 状態を持つオブジェクトの扱い
+12.1.6. グローバル変数を制限する
+12.1.7. 性能
+12.1.8. 使用例
+12.2.1. 使用例
+12.3.1. 制限事項
+12.3.2. 使用例
+12.4.marshal— 内部使用向けの Python オブジェクト整列化
+12.5.1.dbm.gnu— GNU による dbm 拡張
+12.5.2.dbm.ndbm— ndbm に基づくインタフェース
+12.5.3.dbm.dumb— 可搬性のある DBM 実装
+12.6.1. モジュールの関数と定数
+12.6.2. Connection オブジェクト
+12.6.3. カーソルオブジェクト
+12.6.4. Row オブジェクト
+12.6.5. 例外
+12.6.6.1. はじめに
+12.6.6.2.1. オブジェクト自身で適合するようにする
+12.6.6.2.2. 適合関数を登録する
+12.6.6.3. SQLite の値を好きな Python 型に変換する
+12.6.6.4. デフォルトの適合関数と変換関数
+12.6.7. トランザクション制御
+12.6.8.1. ショートカットメソッドを使う
+12.6.8.2. 位置ではなく名前でカラムにアクセスする
+12.6.8.3. コネクションをコンテキストマネージャーとして利用する
+12.6.9.1. マルチスレッド
+13.1.zlib—gzip互換の圧縮
+13.2.1. 使い方の例
+13.3.1. ファイルの圧縮/解凍
+13.3.2. 逐次圧縮および展開
+13.3.3. 一括圧縮/解凍
+13.4.1. 圧縮ファイルへの読み書き
+13.4.2. メモリ上での圧縮と展開
+13.4.3. その他
+13.4.4. カスタムフィルタチェインの指定
+13.4.5. 使用例
+13.5.1. ZipFile オブジェクト
+13.5.2. PyZipFile オブジェクト
+13.5.3. ZipInfo オブジェクト
+13.5.4.1. コマンドラインオプション
+13.6.1. TarFile オブジェクト
+13.6.2. TarInfo オブジェクト
+13.6.3.1. コマンドラインオプション
+13.6.4. 使用例
+13.6.5. サポートしている tar フォーマット
+13.6.6. Unicode に関する問題
+14.1.1. モジュールコンテンツ
+14.1.2. Dialect クラスと書式化パラメタ
+14.1.3. reader オブジェクト
+14.1.4. writer オブジェクト
+14.1.5. 使用例
+14.2.1. クイックスタート
+14.2.2. サポートされるデータ型
+14.2.3. 代替値
+14.2.4. サポートするINI ファイルの構造
+14.2.5. 値の補間
+14.2.6. マップ型プロトコルアクセス
+14.2.7. パーサーの振る舞いをカスタマイズする
+14.2.8. レガシーな API の例
+14.2.9. ConfigParser オブジェクト
+14.2.10. RawConfigParser オブジェクト
+14.2.11. 例外
+14.3.1. netrc オブジェクト
+14.4.1. Packer オブジェクト
+14.4.2. Unpacker オブジェクト
+14.4.3. 例外
+14.5.1. 使用例
+15.1.1. ハッシュアルゴリズム
+15.1.2. SHAKE 可変長ダイジェスト
+15.1.3. 鍵導出
+15.1.4.1. ハッシュオブジェクトの作成
+15.1.4.2. 定数
+15.1.4.3.1. 簡単なハッシュ化
+15.1.4.3.2. Using different digest sizes
+15.1.4.3.3. Keyed hashing
+15.1.4.3.4. Randomized hashing
+15.1.4.3.5. Personalization
+15.1.4.3.6. ツリーモード
+15.1.4.4. クレジット:
+15.2.hmac— メッセージ認証のための鍵付きハッシュ化
+15.3.1. 乱数
+15.3.2.1. トークンは何バイト使うべきか？
+15.3.3. その他の関数
+15.3.4. レシピとベストプラクティス
+16.1.1. ファイル名、コマンドライン引数、および環境変数
+16.1.2. プロセスのパラメーター
+16.1.3. ファイルオブジェクトの生成
+16.1.4.1. ターミナルのサイズの問い合わせ
+16.1.4.2. ファイル記述子の継承
+16.1.5.1. Linux 拡張属性
+16.1.6. プロセス管理
+16.1.7. スケジューラーへのインターフェイス
+16.1.8. 雑多なシステム情報
+16.1.9. 乱数
+16.2.1.1. テキスト I/O
+16.2.1.2. バイナリ I/O
+16.2.1.3. Raw I/O
+16.2.2.1. インメモリー ストリーム
+16.2.3.1. I/O 基底クラス
+16.2.3.2. 生ファイルI/O
+16.2.3.3. バッファ付きストリーム
+16.2.3.4. テキスト I/O
+16.2.4.1. バイナリ I/O
+16.2.4.2. テキスト I/O
+16.2.4.3. マルチスレッディング
+16.2.4.4. リエントラント性
+16.3.time— 時刻データへのアクセスと変換
+16.4.1.1. パーサーを作る
+16.4.1.2. 引数を追加する
+16.4.1.3. 引数を解析する
+16.4.2.1.prog
+16.4.2.2. usage
+16.4.2.3. description
+16.4.2.4. epilog
+16.4.2.5. parents
+16.4.2.6. formatter_class
+16.4.2.7. prefix_chars
+16.4.2.8. fromfile_prefix_chars
+16.4.2.9. argument_default
+16.4.2.10. allow_abbrev
+16.4.2.11. conflict_handler
+16.4.2.12. add_help
+16.4.3.1. name または flags
+16.4.3.2. action
+16.4.3.3. nargs
+16.4.3.4. const
+16.4.3.5. default
+16.4.3.6. type
+16.4.3.7. choices
+16.4.3.8. required
+16.4.3.9. help
+16.4.3.10. metavar
+16.4.3.11. dest
+16.4.3.12. Action クラス
+16.4.4.1. オプション値の文法
+16.4.4.2. 不正な引数
+16.4.4.3.-を含む引数
+16.4.4.4. 引数の短縮形 (先頭文字でのマッチング)
+16.4.4.5.sys.argv以外
+16.4.4.6. Namespace オブジェクト
+16.4.5.1. サブコマンド
+16.4.5.2. FileType オブジェクト
+16.4.5.3. 引数グループ
+16.4.5.4. 相互排他
+16.4.5.5. パーサーのデフォルト値
+16.4.5.6. ヘルプの表示
+16.4.5.7. 部分解析
+16.4.5.8. ファイル解析のカスタマイズ
+16.4.5.9. 終了メソッド
+16.4.6. optparse からのアップグレード
+16.5.getopt— C 言語スタイルのコマンドラインオプションパーサ
+16.6.1. ロガーオブジェクト
+16.6.2. ロギングレベル
+16.6.3. ハンドラオブジェクト
+16.6.4. フォーマッタオブジェクト
+16.6.5. フィルタオブジェクト
+16.6.6. LogRecord オブジェクト
+16.6.7. LogRecord 属性
+16.6.8. LoggerAdapter オブジェクト
+16.6.9. スレッドセーフ性
+16.6.10. モジュールレベルの関数
+16.6.11. モジュールレベル属性
+16.6.12. warnings モジュールとの統合
+16.7.1. 環境設定のための関数
+16.7.2.1. 辞書スキーマの詳細
+16.7.2.2. 増分設定
+16.7.2.3. オブジェクトの接続
+16.7.2.4. ユーザ定義オブジェクト
+16.7.2.5. 外部オブジェクトへのアクセス
+16.7.2.6. 内部オブジェクトへのアクセス
+16.7.2.7. インポート解決とカスタムインポーター
+16.7.3. 環境設定ファイルの書式
+16.8.1. StreamHandler
+16.8.2. FileHandler
+16.8.3. NullHandler
+16.8.4. WatchedFileHandler
+16.8.5. BaseRotatingHandler
+16.8.6. RotatingFileHandler
+16.8.7. TimedRotatingFileHandler
+16.8.8. SocketHandler
+16.8.9. DatagramHandler
+16.8.10. SysLogHandler
+16.8.11. NTEventLogHandler
+16.8.12. SMTPHandler
+16.8.13. MemoryHandler
+16.8.14. HTTPHandler
+16.8.15. QueueHandler
+16.8.16. QueueListener
+16.9.getpass— 可搬性のあるパスワード入力機構
+16.10.1. 関数
+16.10.2. Window オブジェクト
+16.10.3. 定数
+16.11.1. Textbox オブジェクト
+16.12.curses.ascii— ASCII 文字に関するユーティリティ
+16.13.1. 関数
+16.13.2. Panel オブジェクト
+16.14.1. クロスプラットフォーム
+16.14.2. Java プラットフォーム
+16.14.3.1. Win95/98 固有
+16.14.4. Mac OS プラットフォーム
+16.14.5. Unix プラットフォーム
+16.15.errno— 標準の errno システムシンボル
+16.16.1.1. 動的リンクライブラリをロードする
+16.16.1.2. ロードしたdllから関数にアクセスする
+16.16.1.3. 関数を呼び出す
+16.16.1.4. 基本データ型
+16.16.1.5. 続・関数を呼び出す
+16.16.1.6. 自作のデータ型とともに関数を呼び出す
+16.16.1.7. 要求される引数の型を指定する (関数プロトタイプ)
+16.16.1.8. 戻り値の型
+16.16.1.9. ポインタを渡す(または、パラメータの参照渡し)
+16.16.1.10. 構造体と共用体
+16.16.1.11. 構造体/共用体アライメントとバイトオーダー
+16.16.1.12. 構造体と共用体におけるビットフィールド
+16.16.1.13. 配列
+16.16.1.14. ポインタ
+16.16.1.15. 型変換
+16.16.1.16. 不完全型
+16.16.1.17. コールバック関数
+16.16.1.18. dllからエクスポートされた値へアクセスする
+16.16.1.19. びっくり仰天
+16.16.1.20. 可変サイズのデータ型
+16.16.2.1. 共有ライブラリを見つける
+16.16.2.2. 共有ライブラリをロードする
+16.16.2.3. 外部関数
+16.16.2.4. 関数プロトタイプ
+16.16.2.5. ユーティリティー関数
+16.16.2.6. データ型
+16.16.2.7. 基本データ型
+16.16.2.8. 構造化データ型
+16.16.2.9. 配列とポインタ
+17.1.1. スレッドローカルデータ
+17.1.2. Thread オブジェクト
+17.1.3. Lock オブジェクト
+17.1.4. RLock オブジェクト
+17.1.5. Condition オブジェクト
+17.1.6.1.Semaphoreの例
+17.1.7. Event オブジェクト
+17.1.8. Timer オブジェクト
+17.1.9. バリアオブジェクト
+17.1.10.with文でのロック・条件変数・セマフォの使い方
+17.2.1.1.Processクラス
+17.2.1.2. コンテキストと開始方式
+17.2.1.3. プロセス間でのオブジェクト交換
+17.2.1.4. プロセス間の同期
+17.2.1.5. プロセス間での状態の共有
+17.2.1.6. ワーカープロセスのプールを使用
+17.2.2.1.Processクラスと例外
+17.2.2.2. パイプ (Pipe) とキュー (Queue)
+17.2.2.3. その他
+17.2.2.4. Connection オブジェクト
+17.2.2.5. 同期プリミティブ
+17.2.2.6.1.multiprocessing.sharedctypesモジュール
+17.2.2.7.1. カスタマイズされたマネージャー
+17.2.2.7.2. リモートマネージャーを使用する
+17.2.2.8.1. クリーンアップ
+17.2.2.9. プロセスプール
+17.2.2.10.1. アドレスフォーマット
+17.2.2.11. 認証キー
+17.2.2.12. ログ記録
+17.2.2.13.multiprocessing.dummyモジュール
+17.2.3.1. すべての開始方式について
+17.2.3.2. 開始方式がspawnおよびforkserverの場合
+17.2.4. 使用例
+17.3.concurrentパッケージ
+17.4.1. Executor オブジェクト
+17.4.2.1. ThreadPoolExecutor の例
+17.4.3.1. ProcessPoolExecutor の例
+17.4.4. Future オブジェクト
+17.4.5. モジュール関数
+17.4.6. 例外クラス
+17.5.1.1. よく使われる引数
+17.5.1.2. Popen コンストラクター
+17.5.1.3. 例外
+17.5.2. セキュリティで考慮すべき点
+17.5.3. Popen オブジェクト
+17.5.4.1. 定数
+17.5.5. 古い高水準 API
+17.5.6.1. /bin/sh シェルのバッククォートを置き換える
+17.5.6.2. シェルのパイプラインを置き換える
+17.5.6.3.os.system()を置き換える
+17.5.6.4.os.spawn関数群を置き換える
+17.5.6.5.os.popen(),os.popen2(),os.popen3()を置き換える
+17.5.6.6.popen2モジュールの関数群を置き換える
+17.5.7. レガシーなシェル呼び出し関数
+17.5.8.1. Windows における引数シーケンスから文字列への変換
+17.6.1. スケジューラオブジェクト
+17.7.1. キューオブジェクト
+17.8.dummy_threading—threadingの代替モジュール
+17.9._thread— 低水準の スレッド API
+17.10._dummy_thread—_threadの代替モジュール
+18.1.1. ソケットファミリー
+18.1.2.1. 例外
+18.1.2.2. 定数
+18.1.2.3.1. ソケットの作成
+18.1.2.3.2. その他の関数
+18.1.3. socket オブジェクト
+18.1.4.1. タイムアウトとconnectメソッド
+18.1.4.2. タイムアウトとacceptメソッド
+18.1.5. 使用例
+18.2.1.1. ソケットの作成
+18.2.1.2. コンテキストの作成
+18.2.1.3. 乱数生成
+18.2.1.4. 証明書の取り扱い
+18.2.1.5. 定数
+18.2.2. SSL ソケット
+18.2.3. SSL コンテキスト
+18.2.4.1. 証明書チェイン
+18.2.4.2. CA 証明書
+18.2.4.3. 秘密鍵と証明書を一緒にする
+18.2.4.4. 自己署名証明書
+18.2.5.1. SSLサポートをテストする
+18.2.5.2. クライアントサイドの処理
+18.2.5.3. サーバーサイドの処理
+18.2.6. ノンブロッキングソケットについての注意事項
+18.2.7. メモリ BIO サポート
+18.2.8. SSL session
+18.2.9.1. 最善のデフォルト値
+18.2.9.2.1. 証明書の検証
+18.2.9.2.2. プロトコルのバージョン
+18.2.9.2.3. 暗号の選択
+18.2.9.3. マルチプロセス化
+18.3.1./dev/pollポーリングオブジェクト
+18.3.2. エッジおよびレベルトリガポーリング (epoll) オブジェクト
+18.3.3. ポーリングオブジェクト
+18.3.4. kqueue オブジェクト
+18.3.5. kevent オブジェクト
+18.4.1. はじめに
+18.4.2. クラス
+18.4.3. 使用例
+18.5.1.1. イベントループの実行
+18.5.1.2. 呼び出し (call)
+18.5.1.3. 遅延呼び出し
+18.5.1.4. Futures
+18.5.1.5. タスク
+18.5.1.6. コネクションの作成
+18.5.1.7. 待ち受けコネクションの作成
+18.5.1.8. ファイル記述子の監視
+18.5.1.9. 低水準のソケット操作
+18.5.1.10. ホスト名の解決
+18.5.1.11. パイプの接続
+18.5.1.12. UNIX シグナル
+18.5.1.13. 実行者
+18.5.1.14. エラーハンドリング API
+18.5.1.15. デバッグモード
+18.5.1.16. サーバー
+18.5.1.17. ハンドル
+18.5.1.18.1. call_soon() を使った Hello World
+18.5.1.18.2. call_later() で現在の日時を表示する
+18.5.1.18.3. 読み込みイベント用ファイル記述子の監視
+18.5.1.18.4. SIGINT および SIGTERM 用のシグナルハンドラーの設定
+18.5.2.1. イベントループ関数
+18.5.2.2. 利用可能なイベントループ
+18.5.2.3.1. Windows
+18.5.2.3.2. Mac OS X
+18.5.2.4. イベントループのポリシーとデフォルトポリシー
+18.5.2.5. イベントループポリシーインターフェース
+18.5.2.6. グローバルループポリシーへのアクセス
+18.5.3.1.1. 例: Hello World コルーチン
+18.5.3.1.2. 例: 現在の日時を表示するコルーチン
+18.5.3.1.3. 例: コルーチンのチェーン
+18.5.3.2. InvalidStateError
+18.5.3.3. TimeoutError
+18.5.3.4.1. 例: run_until_complete() を使ったフューチャ
+18.5.3.4.2. 例: run_forever() を使ったフューチャ
+18.5.3.5.1. 例: タスクの並列実行
+18.5.3.6. タスク関数
+18.5.4.1.1. BaseTransport
+18.5.4.1.2. ReadTransport
+18.5.4.1.3. WriteTransport
+18.5.4.1.4. DatagramTransport
+18.5.4.1.5. BaseSubprocessTransport
+18.5.4.2.1. プロトコルクラス群
+18.5.4.2.2. コネクションコールバック
+18.5.4.2.3. ストリーミングプロトコル
+18.5.4.2.4. データグラムプロトコル
+18.5.4.2.5. フロー制御コールバック
+18.5.4.2.6. コルーチンとプロトコル
+18.5.4.3.1. TCP Echo クライアントプロトコル
+18.5.4.3.2. TCP Echo サーバープロトコル
+18.5.4.3.3. UDP Echo クライアントプロトコル
+18.5.4.3.4. UDP Echo サーバープロトコル
+18.5.4.3.5. プロトコルを使ってデータを待つオープンソケットの登録
+18.5.5.1. ストリーム関数
+18.5.5.2. StreamReader
+18.5.5.3. StreamWriter
+18.5.5.4. StreamReaderProtocol
+18.5.5.5. IncompleteReadError
+18.5.5.6. LimitOverrunError
+18.5.5.7.1. ストリームを使った TCP Echo クライアント
+18.5.5.7.2. ストリームを使った TCP Echo サーバー
+18.5.5.7.3. HTTP ヘッダーの取得
+18.5.5.7.4. ストリームを使ってデータを待つオープンソケットの登録
+18.5.6.1. Windows でのイベントループ
+18.5.6.2. サブプロセスの作成: Process を使用した高水準 API
+18.5.6.3. サブプロセスの作成: subprocess.Popen を使用した低水準 API
+18.5.6.4. 定数
+18.5.6.5. Process
+18.5.6.6. サブプロセスとスレッド
+18.5.6.7.1. トランスポートおよびプロトコルを使用したサブプロセス
+18.5.6.7.2. ストリームを使用したサブプロセス
+18.5.7.1.1. Lock
+18.5.7.1.2. Event
+18.5.7.1.3. Condition
+18.5.7.2.1. Semaphore
+18.5.7.2.2. BoundedSemaphore
+18.5.8.1. Queue
+18.5.8.2. PriorityQueue
+18.5.8.3.1. 例外
+18.5.9.1. asyncio のデバッグモード
+18.5.9.2. 取り消し
+18.5.9.3. 並行処理とマルチスレッド処理
+18.5.9.4. ブロック関数を正しく扱う
+18.5.9.5. ログ記録
+18.5.9.6. スケジュールされなかったコルーチンオブジェクトの検出
+18.5.9.7. 未処理の例外の検出
+18.5.9.8. コルーチンを正しくチェーンする
+18.5.9.9. 未完のタスクの破棄
+18.5.9.10. トランスポートとイベントループを閉じる
+18.6.1. asyncoreの例: 簡単なHTTPクライアント
+18.6.2. 基本的な echo サーバーの例
+18.7.1. asynchat 使用例
+18.8.1.1. Python のシグナルハンドラの実行
+18.8.1.2. シグナルとスレッド
+18.8.2. モジュールの内容
+18.8.3. 使用例
+18.9.mmap— メモリマップファイル
+19.1.1.email.message: 電子メールメッセージの表現
+19.1.2.1. FeedParser API
+19.1.2.2. Parser API
+19.1.2.3. 追記事項
+19.1.3.email.generator: MIME 文書の生成
+19.1.4.email.policy: ポリシーオブジェクト
+19.1.5.email.errors: 例外及び欠陥クラス
+19.1.6.email.headerregistry: カスタムヘッダーオブジェクト
+19.1.7.1. Content Manager Instances
+19.1.8.email: 使用例
+19.1.9.email.message.Message: Representing an email message using thecompat32API
+19.1.10.email.mime: メールと MIME オブジェクトを一から作成
+19.1.11.email.header: 国際化されたヘッダ
+19.1.12.email.charset: 文字集合の表現
+19.1.13.email.encoders: エンコーダ
+19.1.14.email.utils: 多方面のユーティリティ
+19.1.15.email.iterators: イテレータ
+19.2.1. 基本的な使い方
+19.2.2. エンコーダとデコーダ
+19.2.3. 例外
+19.2.4.1. 文字エンコーディング
+19.2.4.2. 無限および NaN の数値
+19.2.4.3. オブジェクト中に重複した名前の扱い
+19.2.4.4. トップレベルの非オブジェクト、非配列の値の扱い
+19.2.4.5. 実装の制限
+19.2.5.1. コマンドラインオプション
+19.3.mailcap— mailcap ファイルの操作
+19.4.1.1.Maildir
+19.4.1.2.mbox
+19.4.1.3.MH
+19.4.1.4.Babyl
+19.4.1.5.MMDF
+19.4.2.1.MaildirMessage
+19.4.2.2.mboxMessage
+19.4.2.3.MHMessage
+19.4.2.4.BabylMessage
+19.4.2.5.MMDFMessage
+19.4.3. 例外
+19.4.4. 使用例
+19.5.1. Mime 型オブジェクト
+19.6.base64— Base16, Base32, Base64, Base85 データの符号化
+19.7.1. 注釈
+19.8.binascii— バイナリデータと ASCII データとの間での変換
+19.9.quopri— MIME quoted-printable 形式データのエンコードおよびデコード
+19.10.uu— uuencode形式のエンコードとデコード
+20.1.html— HyperText Markup Language のサポート
+20.2.1. HTML パーサーアプリケーションの例
+20.2.2.HTMLParserメソッド
+20.2.3. 使用例
+20.3.html.entities— HTML 一般実体の定義
+20.4.1. XML の脆弱性
+20.4.2.defusedxmlおよびdefusedexpatパッケージ
+20.5.1.1. XML 木構造と要素
+20.5.1.2. XML の解析
+20.5.1.3. 非ブロックパースのためのプル API
+20.5.1.4. 関心ある要素の検索
+20.5.1.5. XML ファイルの編集
+20.5.1.6. XML 文書の構築
+20.5.1.7. 名前空間のある XML の解析
+20.5.1.8. その他の情報
+20.5.2.1. 使用例
+20.5.2.2. サポートされている XPath 構文
+20.5.3.1. 関数
+20.5.3.2. Element オブジェクト
+20.5.3.3. ElementTree オブジェクト
+20.5.3.4. QName オブジェクト
+20.5.3.5. TreeBuilder オブジェクト
+20.5.3.6. XMLParser オブジェクト
+20.5.3.7. XMLPullParser オブジェクト
+20.5.3.8. 例外
+20.6.1. モジュールコンテンツ
+20.6.2.1. DOMImplementation オブジェクト
+20.6.2.2. Node オブジェクト
+20.6.2.3. NodeList オブジェクト
+20.6.2.4. DocumentType オブジェクト
+20.6.2.5. Document オブジェクト
+20.6.2.6. Element オブジェクト
+20.6.2.7. Attr オブジェクト
+20.6.2.8. NamedNodeMap Objects
+20.6.2.9. Comment オブジェクト
+20.6.2.10. Text オブジェクトおよび CDATASection オブジェクト
+20.6.2.11. ProcessingInstruction オブジェクト
+20.6.2.12. 例外
+20.6.3.1. 型の対応付け
+20.6.3.2. アクセサメソッド
+20.7.1. DOM オブジェクト
+20.7.2. DOM の例
+20.7.3. minidom と DOM 標準
+20.8.1. DOMEventStream オブジェクト
+20.9.1. SAXException オブジェクト
+20.10.1. ContentHandler オブジェクト
+20.10.2. DTDHandler オブジェクト
+20.10.3. EntityResolver オブジェクト
+20.10.4. ErrorHandler オブジェクト
+20.11.xml.sax.saxutils— SAX ユーティリティ
+20.12.1. XMLReader オブジェクト
+20.12.2. IncrementalParser オブジェクト
+20.12.3. Locator オブジェクト
+20.12.4. InputSource オブジェクト
+20.12.5.Attributesインタフェース
+20.12.6.AttributesNSインタフェース
+20.13.1. XMLParser オブジェクト
+20.13.2. ExpatError 例外
+20.13.3. 使用例
+20.13.4. 内容モデルの記述
+20.13.5. Expat エラー定数
+21.1.1. ブラウザコントローラーオブジェクト
+21.2.1. はじめに
+21.2.2. cgi モジュールを使う
+21.2.3. 高水準インタフェース
+21.2.4. 関数
+21.2.5. セキュリティへの配慮
+21.2.6. CGI スクリプトを Unix システムにインストールする
+21.2.7. CGI スクリプトをテストする
+21.2.8. CGI スクリプトをデバッグする
+21.2.9. よくある問題と解決法
+21.3.cgitb— CGI スクリプトのトレースバック管理機構
+21.4.1.wsgiref.util– WSGI 環境のユーティリティ
+21.4.2.wsgiref.headers– WSGI レスポンスヘッダツール群
+21.4.3.wsgiref.simple_server– シンプルな WSGI HTTP サーバ
+21.4.4.wsgiref.validate— WSGI 準拠チェッカー
+21.4.5.wsgiref.handlers– サーバ／ゲートウェイのベースクラス
+21.4.6. 使用例
+21.5.urllib— URL を扱うモジュール群
+21.6.1. Request オブジェクト
+21.6.2. OpenerDirector オブジェクト
+21.6.3. BaseHandler オブジェクト
+21.6.4. HTTPRedirectHandler オブジェクト
+21.6.5. HTTPCookieProcessor オブジェクト
+21.6.6. ProxyHandler オブジェクト
+21.6.7. HTTPPasswordMgr オブジェクト
+21.6.8. HTTPPasswordMgrWithPriorAuth オブジェクト
+21.6.9. AbstractBasicAuthHandler オブジェクト
+21.6.10. HTTPBasicAuthHandler オブジェクト
+21.6.11. ProxyBasicAuthHandler オブジェクト
+21.6.12. AbstractDigestAuthHandler オブジェクト
+21.6.13. HTTPDigestAuthHandler オブジェクト
+21.6.14. ProxyDigestAuthHandler オブジェクト
+21.6.15. HTTPHandler オブジェクト
+21.6.16. HTTPSHandler オブジェクト
+21.6.17. FileHandler オブジェクト
+21.6.18. DataHandler オブジェクト
+21.6.19. FTPHandler オブジェクト
+21.6.20. CacheFTPHandler オブジェクト
+21.6.21. UnknownHandler オブジェクト
+21.6.22. HTTPErrorProcessor オブジェクト
+21.6.23. 使用例
+21.6.24. レガシーインターフェース
+21.6.25.urllib.requestの制限事項
+21.7.urllib.response— urllib で使用するレスポンスクラス
+21.8.1. URL の解析
+21.8.2. ASCII エンコードバイト列の解析
+21.8.3. 構造化された解析結果
+21.8.4. URL のクオート
+21.9.urllib.error— urllib.request が投げる例外
+21.10.urllib.robotparser—  robots.txt のためのパーザ
+21.11.1. HTTP ステータスコード
+21.12.1. HTTPConnection オブジェクト
+21.12.2. HTTPResponse オブジェクト
+21.12.3. 使用例
+21.12.4. HTTPMessage オブジェクト
+21.13.1. FTP オブジェクト
+21.13.2. FTP_TLS オブジェクト
+21.14.1. POP3 オブジェクト
+21.14.2. POP3 の例
+21.15.1. IMAP4 オブジェクト
+21.15.2. IMAP4 の使用例
+21.16.1.1. 属性
+21.16.1.2. メソッド
+21.16.2. ユーティリティー関数
+21.17.1. SMTP オブジェクト
+21.17.2. SMTP 使用例
+21.18.1. SMTPServer オブジェクト
+21.18.2. DebuggingServer オブジェクト
+21.18.3. PureProxy オブジェクト
+21.18.4. MailmanProxy Objects
+21.18.5. SMTPChannel オブジェクト
+21.19.1. Telnet オブジェクト
+21.19.2. Telnet Example
+21.20.1. 使用例
+21.21.1. サーバ生成に関するノート
+21.21.2. Serverオブジェクト
+21.21.3. Request Handler Objects
+21.21.4.1.socketserver.TCPServerの例
+21.21.4.2.socketserver.UDPServerの例
+21.21.4.3. 非同期処理の Mix-in
+21.22.http.server— HTTP サーバ
+21.23.1. Cookieオブジェクト
+21.23.2. Morselオブジェクト
+21.23.3. 使用例
+21.24.1. CookieJar および FileCookieJar オブジェクト
+21.24.2. FileCookieJar のサブクラスと web ブラウザとの連携
+21.24.3. CookiePolicy オブジェクト
+21.24.4. DefaultCookiePolicy オブジェクト
+21.24.5. Cookieオブジェクト
+21.24.6. 使用例
+21.25.xmlrpc— XMLRPC サーバーとクライアントモジュール
+21.26.1. ServerProxy オブジェクト
+21.26.2. DateTime オブジェクト
+21.26.3. Binary オブジェクト
+21.26.4. Fault オブジェクト
+21.26.5. ProtocolError オブジェクト
+21.26.6. MultiCall オブジェクト
+21.26.7. 補助関数
+21.26.8. クライアントのサンプル
+21.26.9. クライアントとサーバーの利用例
+21.27.1.1. SimpleXMLRPCServer の例
+21.27.2. CGIXMLRPCRequestHandler
+21.27.3. XMLRPC サーバの文書化
+21.27.4. DocXMLRPCServer オブジェクト
+21.27.5. DocCGIXMLRPCRequestHandler
+21.28.1. 便利なファクトリ関数
+21.28.2.1. Address オブジェクト
+21.28.2.2. 文字列と整数への変換
+21.28.2.3.1. 比較演算子
+21.28.2.3.2. 算術演算
+21.28.3.1. プリフィックス, ネットマスク、ホストマスク
+21.28.3.2. Network オブジェクト
+21.28.3.3.1. 論理演算子
+21.28.3.3.2. イテレーション
+21.28.3.3.3. Networks as containers of addresses
+21.28.4. インターフェイスオブジェクト
+21.28.5. その他のモジュールレベル関数
+21.28.6. Custom Exceptions
+22.1.audioop— 生の音声データを操作する
+22.2.aifc— AIFFおよびAIFCファイルの読み書き
+22.3.1. AU_read オブジェクト
+22.3.2. AU_write オブジェクト
+22.4.1. Wave_read オブジェクト
+22.4.2. Wave_write オブジェクト
+22.5.chunk— IFFチャンクデータの読み込み
+22.6.colorsys— 色体系間の変換
+22.7.imghdr— 画像の形式を決定する
+22.8.sndhdr— サウンドファイルの識別
+22.9.1. オーディオデバイスオブジェクト
+22.9.2. ミキサデバイスオブジェクト
+23.1.1. GNUgettextAPI
+23.1.2.1.NullTranslationsクラス
+23.1.2.2.GNUTranslationsクラス
+23.1.2.3. Solaris メッセージカタログ機構のサポート
+23.1.2.4. Catalog コンストラクタ
+23.1.3.1. モジュールを地域化する
+23.1.3.2. アプリケーションを地域化する
+23.1.3.3. 動作中 (on the fly) に言語を切り替える
+23.1.3.4. 翻訳処理の遅延解決
+23.1.4. 謝辞
+23.2.1. ロケールの背景、詳細、ヒント、助言および補足説明
+23.2.2. Python 拡張の作者と、Python を埋め込むようなプログラムに関して
+23.2.3. メッセージカタログへのアクセス
+24.1.1. はじめに
+24.1.2.1. Turtle のメソッド
+24.1.2.2. TurtleScreen/Screen のメソッド
+24.1.3.1. Turtle の動き
+24.1.3.2. Turtle の状態を知る
+24.1.3.3. 設定と計測
+24.1.3.4.1. 描画状態
+24.1.3.4.2. 色の制御
+24.1.3.4.3. 塗りつぶし
+24.1.3.4.4. さらなる描画の制御
+24.1.3.5.1. 可視性
+24.1.3.5.2. 見た目
+24.1.3.6. イベントを利用する
+24.1.3.7. 特別な Turtle のメソッド
+24.1.3.8. Compound shapes
+24.1.4.1. ウィンドウの制御
+24.1.4.2. アニメーションの制御
+24.1.4.3. スクリーンイベントを利用する
+24.1.4.4. Input methods
+24.1.4.5. 設定と特殊なメソッド
+24.1.4.6. Screen 独自のメソッド、TurtleScreen から継承したもの以外
+24.1.5. Public classes
+24.1.6.1. ヘルプの使い方
+24.1.6.2. ドキュメント文字列の翻訳
+24.1.6.3. Screen および Turtle の設定方法
+24.1.7.turtledemo— デモスクリプト
+24.1.8. Changes since Python 2.6
+24.1.9. Changes since Python 3.0
+24.2.1. Cmdオブジェクト
+24.2.2. Cmd の例
+24.3.1. shlex オブジェクト
+24.3.2. 解析規則
+24.3.3. Improved Compatibility with Shells
+25.1.1. Tkinter モジュール
+25.1.2.1. この節の使い方
+25.1.2.2. 簡単な Hello World プログラム
+25.1.3. Tcl/Tk を (本当に少しだけ) 見渡してみる
+25.1.4. 基本的な Tk プログラムと Tkinter との対応関係
+25.1.5. Tk と Tkinter はどのように関わっているのか
+25.1.6.1. オプションの設定
+25.1.6.2. Packer
+25.1.6.3. Packer のオプション
+25.1.6.4. ウィジェット変数を関連付ける
+25.1.6.5. ウィンドウマネージャ
+25.1.6.6. Tk オプションデータ型
+25.1.6.7. バインドとイベント
+25.1.6.8. index パラメータ
+25.1.6.9. 画像
+25.1.7. ファイルハンドラ
+25.2.1. Ttk を使う
+25.2.2. Ttk ウィジェット
+25.2.3.1. 標準オプション
+25.2.3.2. スクロール可能ウィジェットのオプション
+25.2.3.3. ラベルオプション
+25.2.3.4. 互換性オプション
+25.2.3.5. ウィジェットの状態
+25.2.3.6. ttk.Widget
+25.2.4.1. オプション
+25.2.4.2. 仮想イベント
+25.2.4.3. ttk.Combobox
+25.2.5.1. オプション
+25.2.5.2. タブオプション
+25.2.5.3. タブ識別子
+25.2.5.4. 仮想イベント
+25.2.5.5. ttk.Notebook
+25.2.6.1. オプション
+25.2.6.2. ttk.Progressbar
+25.2.7.1. オプション
+25.2.8.1. プラットフォーム固有のメモ
+25.2.8.2. バグ
+25.2.9.1. オプション
+25.2.9.2. 要素オプション
+25.2.9.3. タグオプション
+25.2.9.4. カラム識別子
+25.2.9.5. 仮想イベント
+25.2.9.6. ttk.Treeview
+25.2.10.1. レイアウト
+25.3.1. Tixを使う
+25.3.2.1. 基本ウィジェット
+25.3.2.2. ファイルセレクタ
+25.3.2.3. 階層的リストボックス
+25.3.2.4. 表的リストボックス
+25.3.2.5. 管理ウィジェット
+25.3.2.6. 画像タイプ
+25.3.2.7. その他のウィジェット
+25.3.2.8. ジオメトリマネジャを作る
+25.3.3. Tixコマンド
+25.4.tkinter.scrolledtext— スクロールするテキストウィジェット
+25.5.1.1. File メニュー (Shell ウィンドウ、Editor ウィンドウ)
+25.5.1.2. Edit メニュー (Shell ウィンドウ、Editor ウィンドウ)
+25.5.1.3. Format メニュー (Shell ウィンドウ、Editor ウィンドウ)
+25.5.1.4. Run メニュー (Editor ウィンドウのみ)
+25.5.1.5. Shell メニュー (Shell ウィンドウのみ)
+25.5.1.6. Debug メニュー (Shell ウィンドウのみ)
+25.5.1.7. Options メニュー (Shell ウィンドウ、Editor ウィンドウ)
+25.5.1.8. Window メニュー (Shell ウィンドウ、Editor ウィンドウ)
+25.5.1.9. Help メニュー (Shell ウィンドウ、Editor ウィンドウ)
+25.5.1.10. コンテキストメニュー
+25.5.2.1. 自動的な字下げ
+25.5.2.2. 補完 (Completions)
+25.5.2.3. 呼び出しヒント (Calltips)
+25.5.2.4. Python Shell ウィンドウ
+25.5.2.5. テキストの色
+25.5.3.1. コマンドラインの使い方
+25.5.3.2. IDLE とコンソールの違い
+25.5.3.3. サブプロセスを起こさずに起動する
+25.5.4.1. Additional help sources [ヘルプ参照先の追加]
+25.5.4.2. Setting preferences [お好み設定]
+25.5.4.3. Extensions [拡張]
+25.6. 他のグラフィカルユーザインタフェースパッケージ
+26.1.1. 型エイリアス
+26.1.2. NewType
+26.1.3. 呼び出し可能オブジェクト
+26.1.4. ジェネリクス
+26.1.5. ユーザー定義のジェネリック型
+26.1.6.Any型
+26.1.7. クラス、関数、およびデコレータ
+26.2.pydoc— ドキュメント生成とオンラインヘルプシステム
+26.3.1. 簡単な利用法: docstring 中の実行例をチェックする
+26.3.2. 簡単な利用法: テキストファイル中の実行例をチェックする
+26.3.3.1. どの docstring が検証されるのか?
+26.3.3.2. docstring 内の実行例をどのように認識するのか?
+26.3.3.3. 実行コンテキストとは何か?
+26.3.3.4. 例外はどう扱えばよいか?
+26.3.3.5. オプションフラグ
+26.3.3.6. ディレクティブ (Directives)
+26.3.3.7. 警告
+26.3.4. 基本 API
+26.3.5. 単体テスト API
+26.3.6.1. DocTest オブジェクト
+26.3.6.2. Example オブジェクト
+26.3.6.3. DocTestFinder オブジェクト
+26.3.6.4. DocTestParser オブジェクト
+26.3.6.5. DocTestRunner オブジェクト
+26.3.6.6. OutputChecker オブジェクト
+26.3.7. デバッグ
+26.3.8. アドバイス
+26.4.1. 基本的な例
+26.4.2.1. コマンドラインオプション
+26.4.3. テストディスカバリ
+26.4.4. テストコードの構成
+26.4.5. 既存テストコードの再利用
+26.4.6. テストのスキップと予期された失敗
+26.4.7. サブテストを利用して繰り返しテストの区別を付ける
+26.4.8.1.1. 非推奨のエイリアス
+26.4.8.2. テストのグループ化
+26.4.8.3.1. load_tests プロトコル
+26.4.9.1. setUpClass と tearDownClass
+26.4.9.2. setUpModule と tearDownModule
+26.4.10. シグナルハンドリング
+26.5.1. クイックガイド
+26.5.2.1. 呼び出し
+26.5.2.2. 属性の削除
+26.5.2.3. Mock の名前と name 属性
+26.5.2.4. 属性として設定されるモック
+26.5.3.1. patch
+26.5.3.2. patch.object
+26.5.3.3. patch.dict
+26.5.3.4. patch.multiple
+26.5.3.5. patch のメソッド: start と stop
+26.5.3.6. ビルトインをパッチする
+26.5.3.7. TEST_PREFIX
+26.5.3.8. patch デコレータをネストする
+26.5.3.9. どこにパッチするか
+26.5.3.10. デスクリプタやプロキシオブジェクトにパッチする
+26.5.4.1. magick method をモックする
+26.5.4.2. Magic Mock
+26.5.5.1. sentinel
+26.5.5.2. DEFAULT
+26.5.5.3. call
+26.5.5.4. create_autospec
+26.5.5.5. ANY
+26.5.5.6. FILTER_DIR
+26.5.5.7. mock_open
+26.5.5.8. autospec を使う
+26.6.1.1. Mock のパッチ用メソッド
+26.6.1.2. オブジェクトのメソッド呼び出しに対するモック
+26.6.1.3. クラスをモックする
+26.6.1.4. モックに名前をつける
+26.6.1.5. 全ての呼び出しのトラッキング
+26.6.1.6. 戻り値や属性を設定する
+26.6.1.7. モックから例外を発生させる
+26.6.1.8. side_effect の関数と iterable
+26.6.1.9. 既存のオブジェクトから Mock を作る
+26.6.2. patch デコレータ
+26.6.3.1. chained call をモックする
+26.6.3.2. 部分的なモック
+26.6.3.3. ジェネレータ method をモックする
+26.6.3.4. 同じパッチを全てのメソッドに適用する
+26.6.3.5. Mocking Unbound Methods
+26.6.3.6. モックで複数回の呼び出しをチェックする
+26.6.3.7. ミュータブルな引数に対処する
+26.6.3.8. patch をネストする
+26.6.3.9. MagicMock で辞書をモックする
+26.6.3.10. Mock のサブクラスと属性
+26.6.3.11. patch.dict で import をモックする
+26.6.3.12. Tracking order of calls and less verbose call assertions
+26.6.3.13. More complex argument matching
+26.7.1. 2to3 の使用
+26.7.2. 変換プログラム
+26.7.3.lib2to3- 2to3’s library
+26.8.1.testパッケージのためのユニットテストを書く
+26.8.2. コマンドラインインタフェースを利用してテストを実行する
+26.9.test.support— テストのためのユーティリティ関数
+27.1.bdb— デバッガーフレームワーク
+27.2.1. tracebackのダンプ
+27.2.2. フォールトハンドラの状態
+27.2.3. タイムアウト後にtracebackをダンプする
+27.2.4. ユーザシグナルに対してtracebackをダンプする
+27.2.5. ファイル記述子の問題
+27.2.6. 使用例
+27.3.1. デバッガコマンド
+27.4.1. プロファイラとは
+27.4.2. かんたんユーザマニュアル
+27.4.3. リファレンスマニュアル –profileとcProfile
+27.4.4.Statsクラス
+27.4.5. 決定論的プロファイリングとは
+27.4.6. 制限事項
+27.4.7. キャリブレーション (補正)
+27.4.8. カスタムな時刻取得用関数を使う
+27.5.1. 基本的な例
+27.5.2. Python インターフェイス
+27.5.3. コマンドラインインターフェイス
+27.5.4. 使用例
+27.6.1.1. 主要なオプション
+27.6.1.2. 修飾的オプション
+27.6.1.3. フィルターオプション
+27.6.2. プログラミングインターフェース
+27.7.1.1. 上位10を表示する
+27.7.1.2. 差を計算する
+27.7.1.3. メモリブロックのトレースバックを取得する
+27.7.1.4. top を整形化する
+27.7.2.1. 関数
+27.7.2.2. DomainFilter
+27.7.2.3. Filter
+27.7.2.4. Frame
+27.7.2.5. Snapshot
+27.7.2.6. Statistic
+27.7.2.7. StatisticDiff
+27.7.2.8. Trace
+27.7.2.9. Traceback
+28.1.distutils— Python モジュールの構築とインストール
+28.2.1. コマンドラインインターフェイス
+28.2.2. モジュール API
+28.3.1. 仮想環境の作成
+28.3.2. API
+28.3.3.EnvBuilderを拡張する例
+28.4.1. 基本的な例
+28.4.2. コマンドラインインターフェイス
+28.4.3. Python API
+28.4.4. 使用例
+28.4.5. The Python Zip Application Archive Format
+29.1.sys— システムパラメータと関数
+29.2.1. 構成変数
+29.2.2. インストールパス
+29.2.3. その他の関数
+29.2.4.sysconfigをスクリプトとして使う
+29.3.builtins— 組み込みオブジェクト
+29.4.__main__— トップレベルのスクリプト環境
+29.5.1. 警告カテゴリ
+29.5.2.1. デフォルトの警告フィルタ
+29.5.3. 一時的に警告を抑制する
+29.5.4. 警告のテスト
+29.5.5. コードを新しいバージョンの Python のために更新する
+29.5.6. 利用可能な関数
+29.5.7. 利用可能なコンテキストマネージャー
+29.6.1. ユーティリティ
+29.6.2.1. 可変数個のコンテキストマネージャーをサポートする
+29.6.2.2. 1つのオプションのコンテキストマネージャーを簡潔にサポートする
+29.6.2.3.__enter__メソッドからの例外をキャッチする
+29.6.2.4.__enter__実装内のクリーンアップ
+29.6.2.5.try-finally+ flag 変数パターンを置き換える
+29.6.2.6. コンテキストマネージャーを関数デコレーターとして使う
+29.6.3.1. Reentrant context managers
+29.6.3.2. Reusable context managers
+29.7.abc— 抽象基底クラス
+29.8.1.atexitの例
+29.9.1.TracebackExceptionオブジェクト
+29.9.2.StackSummaryオブジェクト
+29.9.3.FrameSummaryオブジェクト
+29.9.4. トレースバックの例
+29.10.__future__— future 文の定義
+29.11.gc— ガベージコレクタインターフェース
+29.12.1. 型とメンバー
+29.12.2. ソースコードの情報取得
+29.12.3. Signature オブジェクトで呼び出し可能オブジェクトを内省する
+29.12.4. クラスと関数
+29.12.5. インタープリタスタック
+29.12.6. 属性の静的なフェッチ
+29.12.7. ジェネレータおよびコルーチンの現在の状態
+29.12.8. Code Objects Bit Flags
+29.12.9. コマンドラインインターフェイス
+29.13.1. readline の設定
+29.13.2. モジュールの内容
+29.14.1. 使用例
+29.14.2. 制限と他に考慮すべきこと
+30.1.1. 対話的なインタプリタオブジェクト
+30.1.2. 対話的なコンソールオブジェクト
+30.2.codeop— Pythonコードをコンパイルする
+31.1.1. zipimporter オブジェクト
+31.1.2. 使用例
+31.2.pkgutil— パッケージ拡張ユーティリティ
+31.3.1.ModuleFinderの使用例
+31.4.runpy— Python モジュールの位置特定と実行
+31.5.1. はじめに
+31.5.2. 関数
+31.5.3.importlib.abc– インポートに関連する抽象基底クラス
+31.5.4.importlib.machinery– インポータおよびパスフック
+31.5.5.importlib.util– インポータのためのユーティリティコード
+31.5.6.1. Importing programmatically
+31.5.6.2. Checking if a module can be imported
+31.5.6.3. Importing a source file directly
+31.5.6.4. Setting up an importer
+31.5.6.5. Approximatingimportlib.import_module()
+32.1.1. ST オブジェクトを作成する
+32.1.2. ST オブジェクトを変換する
+32.1.3. ST オブジェクトに対する問い合わせ
+32.1.4. 例外とエラー処理
+32.1.5. ST オブジェクト
+32.1.6. 例:compile()のエミュレーション
+32.2.1. Node クラス
+32.2.2. 抽象文法 (Abstract Grammar)
+32.2.3.astヘルパー
+32.3.1. 記号表の生成
+32.3.2. 記号表の検査
+32.4.symbol— Python 解析木と共に使われる定数
+32.5.token— Python 解析木と共に使われる定数
+32.6.keyword— Python キーワードチェック
+32.7.1. 入力のトークナイズ
+32.7.2. コマンドラインからの使用
+32.7.3. 使用例
+32.8.tabnanny— あいまいなインデントの検出
+32.9.1. クラスオブジェクト
+32.9.2. Function オブジェクト
+32.10.py_compile— Python ソースファイルのコンパイル
+32.11.1. コマンドラインでの使用
+32.11.2. パブリックな関数
+32.12.1. バイトコード解析
+32.12.2. 解析関数
+32.12.3. Python バイトコード命令
+32.12.4. 命令コードコレクション
+32.13.1.1. コマンドラインオプション
+32.13.2. プログラミングインターフェース
+33.1.1. formatter インタフェース
+33.1.2. formatter 実装
+33.1.3. writer インタフェース
+33.1.4. writer 実装
+34.1.1. データベースオブジェクト
+34.1.2. ビューオブジェクト
+34.1.3. サマリー情報オブジェクト
+34.1.4. レコードオブジェクト
+34.1.5. エラー
+34.1.6. CAB オブジェクト
+34.1.7. ディレクトリオブジェクト
+34.1.8. フィーチャー
+34.1.9. GUI クラス
+34.1.10. 事前に計算されたテーブル
+34.2.1. ファイル操作関連
+34.2.2. コンソール I/O 関連
+34.2.3. その多の関数
+34.3.1. 関数
+34.3.2.1. HKEY_* 定数
+34.3.2.2.1. 64-bit 特有のアクセス権
+34.3.2.3. 値の型
+34.3.3. レジストリハンドルオブジェクト
+34.4.winsound— Windows 用の音声再生インタフェース
+35.1.1. ラージファイルのサポート
+35.1.2. 注目すべきモジュールの内容
+35.2.pwd— パスワードデータベースへのアクセスを提供する
+35.3.spwd— シャドウパスワードデータベース
+35.4.grp— グループデータベースへのアクセス
+35.5.1. ハッシュ化方式
+35.5.2. モジュール属性
+35.5.3. モジュール関数
+35.5.4. 使用例
+35.6.1. 使用例
+35.7.tty— 端末制御のための関数群
+35.8.1. 使用例
+35.9.fcntl—fcntlおよびioctlシステムコール
+35.10.1. テンプレートオブジェクト
+35.11.1. リソースの制限
+35.11.2. リソースの使用状態
+35.12.nis— Sun の NIS (Yellow Pages) へのインタフェース
+35.13.1.1. シンプルな例
+36.1.1.1. 用語集
+36.1.1.2. オプションとは何か
+36.1.1.3. 固定引数とは何か
+36.1.2.1. オプション・アクションを理解する
+36.1.2.2. store アクション
+36.1.2.3. ブール値 (フラグ) オプションの処理
+36.1.2.4. その他のアクション
+36.1.2.5. デフォルト値
+36.1.2.6.1. オプションをグループ化する
+36.1.2.7. バージョン番号の出力
+36.1.2.8.optparseのエラー処理法
+36.1.2.9. 全てをつなぎ合わせる
+36.1.3.1. parserを作る
+36.1.3.2. パーザへのオプション追加
+36.1.3.3. オプションの定義
+36.1.3.4. オプション属性
+36.1.3.5. 標準的なオプション・アクション
+36.1.3.6. 標準のオプション型
+36.1.3.7. 引数を解析する
+36.1.3.8. オプション解析器への問い合わせと操作
+36.1.3.9. オプション間の衝突
+36.1.3.10. クリーンアップ
+36.1.3.11. その他のメソッド
+36.1.4.1. callbackオプションの定義
+36.1.4.2. コールバック関数はどのように呼び出されるか
+36.1.4.3. コールバック中で例外を送出する
+36.1.4.4. コールバックの例 1: ありふれたコールバック
+36.1.4.5. コールバックの例 2: オプションの順番をチェックする
+36.1.4.6. コールバックの例 3: オプションの順番をチェックする (汎用的)
+36.1.4.7. コールバックの例 4: 任意の条件をチェックする
+36.1.4.8. コールバックの例5: 固定引数
+36.1.4.9. コールバックの例6: 可変個の引数
+36.1.5.1. 新しい型の追加
+36.1.5.2. 新しいアクションの追加
+36.2.1. 使用例
+37.1. プラットフォーム固有のモジュール
+おすすめのサードパーティツール
+1.1. 簡単な例
+1.2. 幕間小話: エラーと例外
+1.3. 例に戻る
+1.4. モジュールのメソッドテーブルと初期化関数
+1.5. コンパイルとリンク
+1.6. C から Python 関数を呼び出す
+1.7. 拡張モジュール関数でのパラメタ展開
+1.8. 拡張モジュール関数のキーワードパラメタ
+1.9. 任意の値を構築する
+1.10.1. Python における参照カウント法
+1.10.2. 所有権にまつわる規則
+1.10.3. 薄氷
+1.10.4. NULL ポインタ
+1.11. C++での拡張モジュール作成
+1.12. 拡張モジュールに C API を提供する
+2.1.1. 基本のサンプルにデータとメソッドを追加する
+2.1.2. データ属性をこまかく制御する
+2.1.3. 循環ガベージコレクションをサポートする
+2.1.4. 他の型のサブクラスを作る
+2.2.1. ファイナライズとメモリ解放
+2.2.2. オブジェクト表現
+2.2.3.1. 総称的な属性を管理する
+2.2.3.2. 特定の型に特化した属性の管理
+2.2.4. オブジェクトの比較
+2.2.5. 抽象的なプロトコルのサポート
+2.2.6. 弱参照(Weak Reference)のサポート
+2.2.7. その他いろいろ
+3.1. distutils による C および C++ 拡張モジュールのビルド
+3.2. 拡張モジュールの配布
+4.1. 型どおりのアプローチ
+4.2. Unix と Windows の相違点
+4.3. DLL 使用の実際
+1.1. 高水準の埋め込み
+1.2. 超高水準の埋め込みから踏み出す: 概要
+1.3. 純粋な埋め込み
+1.4. 埋め込まれた Python の拡張
+1.5. C++による Python の埋め込み
+1.6. Unix 系システムにおけるコンパイルとリンク
+インクルードファイル
+参照カウントの詳細
+型
+例外
+Python の埋め込み
+デバッグ版ビルド (Debugging Builds)
+安定 ABI (Stable Appliction Binary Interface)
+超高水準レイヤ
+参照カウント
+出力とクリア
+例外の送出
+警告
+エラーインジケータの問い合わせ
+シグナルハンドリング
+例外クラス
+例外オブジェクト
+Unicode 例外オブジェクト
+再帰の管理
+標準例外
+Standard Warning Categories
+オペレーティングシステム関連のユーティリティ
+システム関数
+プロセス制御
+モジュールのインポート
+データ整列化 (data marshalling) のサポート
+文字列とバッファ
+数
+その他のオブジェクト
+API 関数
+値の構築
+文字列の変換と書式化
+リフレクション
+コーデック検索API
+Unicode エラーハンドラ用レジストリ API
+オブジェクトプロトコル (object protocol)
+数値型プロトコル (number protocol)
+シーケンス型プロトコル (sequence protocol)
+マップ型プロトコル (mapping protocol)
+イテレータプロトコル (iterator protocol)
+buffer 構造体
+リクエストに依存しないフィールド
+readonly, format
+shape, strides, suboffsets
+隣接性のリクエスト
+複合リクエスト
+NumPy スタイル: shape, strides
+PIL スタイル: shape, strides, suboffsets
+バッファ関連の関数
+古いバッファプロトコル
+型オブジェクト
+Noneオブジェクト
+整数型オブジェクト (integer object)
+Boolean オブジェクト
+浮動小数点型オブジェクト (floating point object)
+C 構造体としての複素数
+Python オブジェクトとしての複素数型
+バイトオブジェクト
+型チェックマクロ
+ダイレクト API 関数
+マクロ
+Unicode 型
+Unicode 文字プロパティ
+Unicode 文字列の生成とアクセス
+廃止予定の Py_UNICODE API群
+ロケールエンコーディング
+ファイルシステムエンコーディング
+wchar_t サポート
+汎用 codec
+UTF-8 Codecs
+UTF-32 Codecs
+UTF-16 Codecs
+UTF-7 Codecs
+Unicode-Escape Codecs
+Raw-Unicode-Escape Codecs
+Latin-1 Codecs
+ASCII Codecs
+Character Map Codecs
+Windows 用の MBCS codec
+メソッドとスロット
+メソッドおよびスロット関数 (slot function)
+タプルオブジェクト (tuple object)
+Struct Sequence オブジェクト
+リストオブジェクト
+辞書オブジェクト (dictionary object)
+Set オブジェクト
+Function オブジェクト
+インスタンスメソッドオブジェクト(Instance Method Objects)
+メソッドオブジェクト
+セルオブジェクト (cell object)
+コードオブジェクト
+ファイルオブジェクト
+一段階初期化
+多段階初期化
+低水準モジュール作成関数
+サポート関数
+モジュール検索
+イテレータオブジェクト (iterator object)
+デスクリプタオブジェクト (descriptor object)
+スライスオブジェクト (slice object)
+Ellipsis Object
+memoryview オブジェクト
+弱参照オブジェクト
+カプセル
+ジェネレータオブジェクト
+コルーチンオブジェクト
+DateTime オブジェクト
+インタプリタの初期化と終了処理
+プロセスワイドのパラメータ
+拡張コード内で GIL を解放する
+Python 以外で作られたスレッド
+高レベルAPI
+低レベルAPI
+バグと注意事項
+非同期通知
+プロファイルとトレース (profiling and tracing)
+高度なデバッガサポート (advanced debugger support)
+概要
+生メモリインタフェース
+メモリインタフェース
+メモリアロケータをカスタマイズする
+pymalloc アリーナアロケータのカスタマイズ
+使用例
+オブジェクトをヒープ上にメモリ確保する
+共通のオブジェクト構造体 (common object structure)
+型オブジェクト
+数値オブジェクト構造体
+マップオブジェクト構造体
+シーケンスオブジェクト構造体
+バッファオブジェクト構造体 (buffer object structure)
+async オブジェクト構造体
+循環参照ガベージコレクションをサポートする
+API と ABI のバージョニング
+重要用語集
+オープンソースライセンス化とコラボレーション
+ツールのインストール
+ガイドを読む
+... 私のプロジェクトの名前はどう選べばいいですか?
+... バイナリの拡張を作って配布したいのですが?
+重要用語集
+基本的な使い方
+... pip を 3.4 より前のバージョンの Python でインストールするには？
+... パッケージを現在のユーザ用のみにインストールするには？
+... 科学技術計算用の Python パッケージをインストールするには？
+... インストールされた複数のバージョンの Python を並行して使うには？
+Linux で、システムの Python 内にインストールする
+バイナリの拡張のインストール
+短い説明
+Python 2.6 とそれ以前のサポートを落とす
+あなたのsetup.pyファイルに、相応しいサポートバージョンを明記することを忘れないこと
+良いテストカバレッジを確保する。
+Python 2 と 3 の違いを学びましょう。
+除算
+テキスト対バイナリデータ
+バージョン検出ではなく機能検出を使う
+互換性オプション
+どの依存性があなたの移行を阻んでいるのかチェックする
+あなたのsetup.pyファイルを更新して Python 3 互換を謳う
+継続的インテグレーションを使って互換性を維持し続ける。
+Consider using optional static type checking
+条件コンパイル
+str/unicode の統合
+long/int の統合
+モジュールの初期化と状態情報
+CObject の Capsule への変更
+その他のオプション
+Python の curses module
+curses アプリケーションの起動と終了
+ウィンドウとパッド
+属性とカラー
+ユーザ入力
+より多くの情報
+概要
+定義と導入
+デスクリプタプロトコル
+デスクリプタの呼び出し
+デスクリプタの例
+プロパティ
+関数とメソッド
+静的メソッドとクラスメソッド
+形式的証明可能性
+モジュラー性
+デバグやテストの簡単さ
+結合性
+イテレータ対応のデータ型
+ジェネレータ式とリスト内包表記
+ジェネレータに値を渡す
+組み込み関数 (built-in function)
+新しいイテレータを作る
+要素に対して関数を呼ぶ
+要素を選択する
+組合せ関数
+要素をグループ分けする
+operator モジュール
+小さな関数とラムダ式
+更新履歴と謝辞
+一般論
+Python 特有の話
+Python 文書
+logging を使うとき
+簡単な例
+ファイルへの logging
+複数のモジュールからのロギング
+変数データのロギング
+表示されるメッセージのフォーマットの変更
+メッセージ内での日付と時刻の表示
+次のステップ
+Logging Flow
+ロガー
+ハンドラ
+フォーマッタ
+ロギングの環境設定
+環境設定が与えられないとどうなるか
+ライブラリのためのロギングの設定
+カスタムレベル
+便利なハンドラ
+ログ記録中に発生する例外
+任意のオブジェクトをメッセージに使用する
+最適化
+複数のモジュールで logging を使う
+複数のスレッドからのロギング
+複数の handler と formatter
+複数の出力先にログを出力する
+設定サーバの例
+ブロックする handler を扱う
+ネットワーク越しの logging イベントの送受信
+コンテキスト情報を渡すために dict 以外のオブジェクトを使う
+Filter を使ったコンテキスト情報の伝達
+複数のプロセスからの単一ファイルへのログ記録
+ファイルをローテートする
+別の format スタイルを利用する
+LogRecordのカスタマイズ
+QueueHandler を継承する - ZeroMQ を使う例
+QueueListener のサブクラスを作る - ZeroMQ を使う例
+辞書ベースで構成する例
+rotator と namer を使ってログローテートをカスタマイズする
+より手の込んだ multiprocessing の例
+SysLogHandler に送るメッセージに BOM を挿入する
+構造化ログを実装する
+handler をdictConfig()を使ってカスタマイズする
+LogRecord ファクトリを使う
+カスタムなメッセージオブジェクトを使う
+filter をdictConfig()を使ってカスタマイズする
+例外の書式化をカスタマイズする
+ロギングメッセージを喋る
+ロギングメッセージをバッファリングし、条件に従って出力する
+設定によって時刻を UTC(GMT) で書式化する
+ロギングの選択にコンテキストマネージャを使う
+はじめに
+文字のマッチング
+繰り返し
+正規表現をコンパイルする
+バックスラッシュ感染症
+マッチの実行
+モジュールレベルの関数
+コンパイルフラグ
+さらなる特殊文字
+グルーピング
+取り出さないグループと名前つきグループ
+先読みアサーション (Lookahead Assertions)
+文字列の分割
+検索と置換
+文字列メソッドを利用する
+match() 対 search()
+貪欲 (greedy) 対非貪欲 (non-greedy)
+re.VERBOSE の利用
+フィードバック
+歴史
+IPC
+バイナリデータ
+ソケットが死ぬと
+ノンブロッキングソケット
+ソートの基本
+Key 関数
+operator モジュール関数
+昇順と降順
+ソートの安定性と複合的なソート
+デコレート-ソート-アンデコレートを利用した古いやり方
+cmpパラメータを利用した古い方法
+残りいくつかとまとめ
+文字コードの歴史
+定義
+エンコーディング
+参考資料
+文字列型
+バイト列への変換
+Python ソースコード内の Unicode リテラル
+Unicode プロパティ
+Unicode 正規表現
+参考資料
+Unicode ファイル名
+ファイルエンコーディングの変換
+不明なエンコーディングのファイル
+参考資料
+謝辞
+はじめに
+データ
+ヘッダ
+URLError
+エラーコード
+その1
+その2
+info と geturl
+Openers と Handlers
+Basic 認証
+プロキシ
+ソケットとレイヤー
+脚注
+コンセプト
+基礎
+位置指定引数の導入
+短いオプション
+位置指定引数とOptional引数の併用
+競合するオプション
+結び
+IPバージョンについての注意
+IPホストアドレス
+ネットワークを定義する
+ホストインタフェース
+アドレス/ネットワーク/インタフェースオブジェクト
+アドレスのリストとしてのネットワーク
+比較
+他のモジュールでIPアドレスを使用する
+インスタンスの生成に失敗した場合にさらに詳細を取得する
+Argument Clinic の目的
+基本的な概念と使用法
+関数を変換してみよう
+シンボルのデフォルト値
+Argument Clinic が生成した関数と変数をリネームする
+PyArg_UnpackTuple による関数の変換
+オプション群
+Using real Argument Clinic converters, instead of “legacy converters”
+Py_buffer
+Advanced converters
+引数のデフォルト値
+NULLデフォルト値
+デフォルト値として指定された式
+Using a return converter
+既存関数の複製
+Python コードの呼び出し
+“self converter” の利用
+カスタムコンバータを書く
+カスタム return コンバータを書く
+METH_O と METH_NOARGS
+tp_new と tp_init functions
+Clinic 出力の変更とリダイレクト
+#ifdef トリック
+Python ファイル内での Argument Clinic の利用
+静的マーカーの有効化
+静的 DTrace プローブ
+静的 SystemTap マーカー
+利用可能な静的マーカー
+SystemTap Tapset
+使用例
+一般情報
+現実世界での Python
+一般的な質問
+コア言語
+数と文字列
+性能
+シーケンス(タプル/リスト)
+辞書型 (dictionary)
+オブジェクト
+モジュール (module)
+Python はなぜ文のグループ化にインデントを使うのですか？
+なぜ単純な算術演算が奇妙な結果になるのですか？
+なんで浮動小数点数の計算はこんなに不正確なんですか？
+なぜ Python の文字列はイミュータブルなのですか？
+なぜメソッドの定義や呼び出しにおいて ‘self’ を明示しなければならないのですか？
+式中で代入ができないのはなぜですか？
+Python にメソッドを使う機能 (list.index() 等) と関数を使う機能 (len(list) 等) があるのはなぜですか？
+join() がリストやタプルのメソッドではなく文字列のメソッドなのはなぜですか？
+例外はどれくらい速いのですか？
+Python に switch や case 文がないのはなぜですか？
+OS 特有のスレッド実装に依らずにインタプリタでスレッドをエミュレートすることはできないのですか？
+なぜラムダ式は文を含むことができないのですか?
+Python は C やその他の言語のように機械語にコンパイルできますか？
+Python はメモリをどのように管理するのですか？
+CPython はなぜ伝統的なガベージコレクションスキームを使わないのですか？
+なぜ CPython の終了時にすべてのメモリが解放されるわけではないのですか？
+なぜタプルとリストという別のデータ型が用意されているのですか？
+リストはどのように実装されているのですか？
+辞書はどのように実装されているのですか？
+なぜ辞書のキーはイミュータブルでなくてはならないのですか？
+なぜ list.sort() はソートされたリストを返さないのですか？
+Python ではどのようにインタフェース仕様を特定し適用するのですか？
+なぜ goto が無いのですか？
+なぜ raw 文字列 (r-strings) はバックスラッシュで終わってはいけないのですか？
+属性の代入に “with” 文が使えないのはなぜですか？
+if/while/def/class 文にコロンが必要なのはなぜですか？
+なぜ Python ではリストやタプルの最後にカンマがあっても良いのですか？
+ライブラリ一般の質問
+よくある作業
+スレッド
+入力と出力
+ネットワーク/インターネットプログラミング
+データベース
+数学と数
+C で独自の関数を作ることはできますか？
+C++ で独自の関数を作ることはできますか？
+C を書くのは大変です。他の方法はありませんか？
+C から任意の Python 文を実行するにはどうしますか？
+C から任意の Python 式を評価するにはどうしますか？
+Python オブジェクトから C の値を取り出すにはどうしますか？
+Py_BuildValue() で任意長のタプルを作るにはどうしますか？
+C からオブジェクトのメソッドを呼び出すにはどうしますか？
+PyErr_Print() (その他 stdout/stderr に印字するもの) からの出力を受け取るにはどうしますか？
+C から Python で書かれたモジュールにアクセスするにはどうしますか？
+Python から C++ へインタフェースするにはどうしますか？
+セットアップファイルでモジュールを追加しようとしたらメイクに失敗しました。なぜですか？
+拡張をデバッグするにはどうしますか？
+Linux システムで Python モジュールをコンパイルしたいのですが、見つからないファイルがあります。なぜですか？
+“不完全 (incomplete) な入力” を “不適切 (invalid) な入力” から区別するにはどうしますか？
+未定義の g++ シンボル __builtin_new や __pure_virtual を見つけるにはどうしますか？
+メソッドのいくつかは C で、その他は Python で実装されたオブジェクトクラスを (継承などで) 作ることはできますか？
+Python プログラムを Windows で動かすにはどうしますか？
+Python スクリプトを実行可能にするにはどうしますか？
+Python の起動に時間がかかることがあるのはなぜですか？
+どうすれば Python スクリプトを EXE に出来ますか?
+*.pydファイルは DLL と同じですか？
+Python を Windows アプリケーションに埋め込むにはどうしたらいいですか？
+エディタが Python ソースにタブを勝手に挿入しないようにするにはどうしますか？
+ブロックすることなく押鍵を検出するにはどうしますか？
+os.kill() を Windows で模倣するにはどうしますか？
+ダウンロードされたドキュメントを Windows 上で展開するにはどうしますか？
+一般的な GUI の質問
+Python のプラットフォーム非依存の GUI ツールキットには何がありますか？
+Python のプラットフォーム固有の GUI ツールキットには何がありますか？
+Tkinter の質問
+Python とは何ですか？
+なぜ Python が私のマシンにインストールされているのですか？
+Python を削除してもいいですか？
+用語集
+Pythonドキュメント 貢献者
+ドキュメントの不備
+Python の課題管理システムを使う
+Python への貢献をはじめる
+Copyright
+Python の歴史
+PSF LICENSE AGREEMENT FOR PYTHON 3.6.1
+BEOPEN.COM LICENSE AGREEMENT FOR PYTHON 2.0
+CNRI LICENSE AGREEMENT FOR PYTHON 1.6.1
+CWI LICENSE AGREEMENT FOR PYTHON 0.9.0 THROUGH 1.2
+Mersenne Twister
+ソケット
+Floating point exception control
+Asynchronous socket services
+Cookie management
+Execution tracing
+UUencode and UUdecode functions
+XML Remote Procedure Calls
+test_epoll
+Select kqueue
+SipHash24
+strtod と dtoa
+OpenSSL
+expat
+libffi
+zlib
+cfuhash
+libmpdec
